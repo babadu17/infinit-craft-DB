@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinite Craft — Recettes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Infinite<span>Craft</span> DB</h1>
+    <p id="total-count">0 recettes répertoriées</p>
+  </header>
+
+  <main>
+    <input type="search" id="search" placeholder="Chercher un élément…">
+    <div id="count-label"></div>
+    <div id="grid"></div>
+  </main>
+
+  <!-- Popup -->
+  <div class="overlay" id="overlay">
+    <div class="popup">
+      <button class="popup-close" onclick="closePopup()">✕</button>
+      <div class="popup-title" id="popup-title"></div>
+      <div id="popup-steps"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

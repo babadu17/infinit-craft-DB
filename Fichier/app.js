@@ -78,6 +78,7 @@ Promise.all([
 ]).then(([recipes, emojis]) => {
   EMOJIS = emojis;
   ALL_RECIPES = recipes;
+  alert(emojis)
   document.getElementById('total-count').textContent = `${Object.keys(recipes).length} recettes répertoriées`;
   render(recipes);
 

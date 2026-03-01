@@ -73,8 +73,8 @@ document.getElementById('overlay').addEventListener('click', e => {
 });
 
 Promise.all([
-  fetch('/json/craft-3.json').then(r => r.json()),
-  fetch('/json/emojis-3.json').then(r => r.json())
+  fetch('./json/craft-3.json').then(r => r.json()),
+  fetch('./json/emojis-3.json').then(r => r.json())
 ]).then(([recipes, emojis]) => {
   EMOJIS = emojis;
   ALL_RECIPES = recipes;

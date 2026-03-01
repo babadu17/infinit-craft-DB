@@ -1,6 +1,6 @@
 let EMOJIS = {};
 let ALL_RECIPES = {};
-
+alert("oui ca marche")
 function emoji(name) {
   return EMOJIS[name] || '';
 }

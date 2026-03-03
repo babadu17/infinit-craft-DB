@@ -81,12 +81,33 @@ document.getElementById("overlay").addEventListener("click", (e) => {
 });
 
 Promise.all([
-  fetch("./json/craft-3.json").then((r) => r.json()),
+  fetch('./json/craft-3.json'),
   fetch('./json/emojis-3.json')
-  .then(r => {
-    console.log("status:", r.status);
-    return r.text();
-  })
-  .then(t => console.log(t))
-  .catch(e => console.error("ERROR:", e));
+])
+.then(responses => {
+  // Vérifie que les deux fichiers existent bien
+  responses.forEach(r => {
+    if (!r.ok) {
+      throw new Error(`Erreur HTTP ${r.status} sur ${r.url}`);
+    }
+  });
+
+  // Convertit en JSON
+  return Promise.all(responses.map(r => r.json()));
+})
+.then(([recipes, emojis]) => {
+  EMOJIS = emojis;
+  ALL_RECIPES = recipes;
+
+  document.getElementById('total-count').textContent =
+    `${Object.keys(recipes).length} recettes répertoriées`;
+
+  render(recipes);
+
+  document.getElementById('search').addEventListener('input', e => {
+    render(recipes, e.target.value);
+  });
+})
+.catch(error => {
+  console.error("Erreur lors du chargement des JSON :", error);
 });

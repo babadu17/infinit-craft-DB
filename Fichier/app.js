@@ -81,7 +81,7 @@ document.getElementById("overlay").addEventListener("click", (e) => {
 });
 
 Promise.all([
-  fetch('./json/craft-3.json'),
+  fetch('Fichier/json/craft-3.json'),
   fetch('./json/emojis-3.json')
 ])
 .then(responses => {

@@ -85,17 +85,19 @@ Promise.all([
   fetch('./json/emojis-3.json')
 ])
 .then(responses => {
-  // Vérifie que les deux fichiers existent bien
   responses.forEach(r => {
     if (!r.ok) {
-      throw new Error(`Erreur HTTP ${r.status} sur ${r.url}`);
+      throw new Error(`HTTP ${r.status} → ${r.url}`);
     }
   });
 
-  // Convertit en JSON
   return Promise.all(responses.map(r => r.json()));
 })
 .then(([recipes, emojis]) => {
+
+  console.log("RECIPES:", recipes);
+  console.log("EMOJIS:", emojis);
+
   EMOJIS = emojis;
   ALL_RECIPES = recipes;
 
@@ -104,9 +106,11 @@ Promise.all([
 
   render(recipes);
 
-  document.getElementById('search').addEventListener('input', e => {
-    render(recipes, e.target.value);
-  });
+  document.getElementById('search')
+    .addEventListener('input', e => {
+      render(recipes, e.target.value);
+    });
+
 })
 .catch(error => {
   console.error("Erreur lors du chargement des JSON :", error);

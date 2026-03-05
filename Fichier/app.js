@@ -81,22 +81,16 @@ document.getElementById("overlay").addEventListener("click", (e) => {
 });
 
 Promise.all([
-  fetch('./json/craft-3.json').then(r => r.text()),
-  fetch('./json/emojis-3.json').then(r => r.text())
-])
-.then(([recipesText, emojisText]) => {
-
-  console.log("RAW RECIPES:", recipesText);
-  console.log("RAW EMOJIS:", emojisText);
-
-  const recipes = JSON.parse(recipesText);
-  const emojis = JSON.parse(emojisText);
-
+  fetch("craft-3.json").then((r) => r.json()),
+  fetch("emojis-3.json").then((r) => r.json()),
+]).then(([recipes, emojis]) => {
   EMOJIS = emojis;
   ALL_RECIPES = recipes;
-
+  document.getElementById("total-count").textContent =
+    `${Object.keys(recipes).length} recettes répertoriées`;
   render(recipes);
-})
-.catch(error => {
-  console.error("Erreur :", error);
+
+  document.getElementById("search").addEventListener("input", (e) => {
+    render(recipes, e.target.value);
+  });
 });

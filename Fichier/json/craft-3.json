@@ -1,153 +1,7986 @@
 {
-  "Lake": ["Water","Water"],
-  "Steam": ["Water","Fire"],
-  "Plant": ["Water","Earth"],
-  "Wave": ["Water","Wind"],
-  "Volcano": ["Fire","Fire"],
-  "Lava": ["Fire","Earth"],
-  "Smoke": ["Fire","Wind"],
-  "Mountain": ["Earth","Earth"],
-  "Dust": ["Earth","Wind"],
-  "Tornado": ["Wind","Wind"],
-  "Ocean": ["Water","Lake"],
-  "Cloud": ["Water","Steam"],
-  "Swamp": ["Water","Plant"],
-  "Tsunami": ["Water","Wave"],
-  "Stone": ["Water","Lava"],
-  "Fog": ["Water","Smoke"],
-  "Mud": ["Water","Dust"],
-  "Engine": ["Fire","Steam"],
-  "Ash": ["Fire","Dust"],
-  "Tree": ["Earth","Plant"],
-  "Sand": ["Earth","Wave"],
-  "Planet": ["Earth","Dust"],
-  "Storm": ["Wind","Lake"],
-  "Dandelion": ["Wind","Plant"],
-  "Eruption": ["Wind","Volcano"],
-  "Avalanche": ["Wind","Mountain"],
-  "Sandstorm": ["Wind","Dust"],
-  "Lily": ["Lake","Plant"],
-  "Island": ["Lake","Volcano"],
-  "Fjord": ["Lake","Mountain"],
-  "Tea": ["Steam","Plant"],
-  "Surf": ["Steam","Wave"],
-  "Seaweed": ["Plant","Wave"],
-  "Incense": ["Plant","Smoke"],
-  "Fish": ["Water","Ocean"],
-  "Rain": ["Water","Cloud"],
-  "Marsh": ["Water","Swamp"],
-  "Rock": ["Water","Stone"],
-  "Ice": ["Water","Fog"],
-  "Puddle": ["Water","Ash"],
-  "River": ["Water","Tree"],
-  "Beach": ["Water","Sand"],
-  "Wine": ["Water","Dandelion"],
-  "Oasis": ["Water","Sandstorm"],
-  "Pond": ["Water","Lily"],
-  "Ship": ["Water","Island"],
-  "Whale": ["Water","Fjord"],
-  "Kelp": ["Water","Seaweed"],
-  "Perfume": ["Water","Incense"],
-  "Lightning": ["Fire","Cloud"],
-  "Dragon": ["Fire","Swamp"],
-  "Brick": ["Fire","Mud"],
-  "Phoenix": ["Fire","Ash"],
-  "Glass": ["Fire","Sand"],
-  "Sun": ["Fire","Planet"],
-  "Chai": ["Fire","Tea"],
-  "Sushi": ["Fire","Seaweed"],
-  "Mist": ["Earth","Fog"],
-  "Clay": ["Earth","Mud"],
-  "Tractor": ["Earth","Engine"],
-  "Soil": ["Earth","Ash"],
-  "Forest": ["Earth","Tree"],
-  "Desert": ["Earth","Sand"],
-  "Moon": ["Earth","Planet"],
-  "Flower": ["Earth","Dandelion"],
-  "Landslide": ["Earth","Avalanche"],
-  "Dune": ["Earth","Sandstorm"],
-  "Continent": ["Earth","Island"],
-  "Land": ["Earth","Fjord"],
-  "Teapot": ["Earth","Tea"],
-  "Hurricane": ["Wind","Tsunami"],
-  "Windmill": ["Wind","Engine"],
-  "Leaf": ["Wind","Tree"],
-  "Seed": ["Wind","Dandelion"],
-  "Snow": ["Wind","Avalanche"],
-  "Dust Storm": ["Wind","Sandstorm"],
-  "Kite": ["Wind","Tea"],
-  "Surfing": ["Wind","Surf"],
-  "Sea": ["Lake","Ocean"],
-  "Lighthouse": ["Lake","Stone"],
-  "Boat": ["Lake","Engine"],
-  "Wish": ["Lake","Dandelion"],
-  "Iceberg": ["Lake","Avalanche"],
-  "Lotus": ["Lake","Lily"],
-  "Titanic": ["Steam","Tsunami"],
-  "Geysir": ["Steam","Stone"],
-  "Train": ["Steam","Engine"],
-  "Steampunk": ["Steam","Planet"],
-  "Geyser": ["Steam","Eruption"],
-  "Steamboat": ["Steam","Fjord"],
-  "Pollen": ["Plant","Dust"],
-  "Coral": ["Plant","Ocean"],
-  "Venus Flytrap": ["Plant","Swamp"],
-  "Fossil": ["Plant","Stone"],
-  "Mushroom": ["Plant","Fog"],
-  "Car": ["Plant","Engine"],
-  "Tobacco": ["Plant","Ash"],
-  "Cactus": ["Plant","Sand"],
-  "Weed": ["Plant","Dandelion"],
-  "Snowman": ["Plant","Avalanche"],
-  "Surfboard": ["Plant","Surf"],
-  "Mermaid": ["Wave","Lily"],
-  "Surfer": ["Wave","Surf"],
-  "Earthquake": ["Volcano","Tsunami"],
-  "Fireworks": ["Volcano","Dandelion"],
-  "Hawaii": ["Volcano","Island"],
-  "Iceland": ["Volcano","Fjord"],
-  "Obsidian": ["Lava","Stone"],
-  "Statue": ["Smoke","Stone"],
-  "Thunder": ["Smoke","Storm"],
-  "Nothing": ["Smoke","Tea"],
-  "Prayer": ["Smoke","Incense"],
-  "Mountain Range": ["Mountain","Mountain"],
-  "Pyramid": ["Mountain","Sand"],
-  "Mountain Dew": ["Mountain","Dandelion"],
-  "Norway": ["Mountain","Fjord"],
-  "Buddha": ["Mountain","Incense"],
-  "Smog": ["Dust","Fog"],
-  "Vacuum": ["Dust","Engine"],
-  "Cinder": ["Dust","Ash"],
-  "Wood": ["Dust","Tree"],
-  "Angel": ["Dust","Lily"],
-  "Troll": ["Dust","Fjord"],
-  "Tea Bag": ["Dust","Tea"],
-  "Cyclone": ["Tornado","Swamp"],
-  "Destruction": ["Tornado","Tsunami"],
-  "Blizzard": ["Tornado","Avalanche"],
-  "Teacup": ["Tornado","Tea"],
-  "Submarine": ["Ocean","Engine"],
-  "Salt": ["Ocean","Ash"],
-  "Atlantis": ["Ocean","Island"],
-  "Rainbow": ["Cloud","Tsunami"],
-  "Jet": ["Cloud","Engine"],
-  "Sky": ["Cloud","Planet"],
-  "Bog": ["Swamp","Swamp"],
-  "Ghost": ["Swamp","Fog"],
-  "Quagmire": ["Swamp","Mud"],
-  "Mangrove": ["Swamp","Tree"],
-  "Frog": ["Swamp","Dandelion"],
-  "Mudslide": ["Swamp","Avalanche"],
-  "Loch Ness": ["Swamp","Island"],
-  "Lagoon": ["Swamp","Surf"],
-  "Mosquito": ["Swamp","Incense"],
-  "Disaster": ["Tsunami","Avalanche"],
-  "Poseidon": ["Tsunami","Incense"],
-  "Boulder": ["Stone","Stone"],
-  "Steamroller": ["Stone","Engine"],
-  "Meteor": ["Stone","Planet"],
-  "Sphinx": ["Stone","Sandstorm"],
-  "Venus": ["Stone","Lily"],
-  "Fairy": ["Fog","Dandelion"]
+  "Lake": [
+    "Water",
+    "Water"
+  ],
+  "Steam": [
+    "Water",
+    "Fire"
+  ],
+  "Plant": [
+    "Water",
+    "Earth"
+  ],
+  "Wave": [
+    "Water",
+    "Wind"
+  ],
+  "Volcano": [
+    "Fire",
+    "Fire"
+  ],
+  "Lava": [
+    "Fire",
+    "Earth"
+  ],
+  "Smoke": [
+    "Fire",
+    "Wind"
+  ],
+  "Mountain": [
+    "Earth",
+    "Earth"
+  ],
+  "Dust": [
+    "Earth",
+    "Wind"
+  ],
+  "Tornado": [
+    "Wind",
+    "Wind"
+  ],
+  "Ocean": [
+    "Water",
+    "Lake"
+  ],
+  "Cloud": [
+    "Water",
+    "Steam"
+  ],
+  "Swamp": [
+    "Water",
+    "Plant"
+  ],
+  "Tsunami": [
+    "Water",
+    "Wave"
+  ],
+  "Stone": [
+    "Water",
+    "Lava"
+  ],
+  "Fog": [
+    "Water",
+    "Smoke"
+  ],
+  "Mud": [
+    "Water",
+    "Dust"
+  ],
+  "Engine": [
+    "Fire",
+    "Steam"
+  ],
+  "Ash": [
+    "Fire",
+    "Dust"
+  ],
+  "Tree": [
+    "Earth",
+    "Plant"
+  ],
+  "Sand": [
+    "Earth",
+    "Wave"
+  ],
+  "Fish": [
+    "Water",
+    "Ocean"
+  ],
+  "Rain": [
+    "Water",
+    "Cloud"
+  ],
+  "Marsh": [
+    "Water",
+    "Swamp"
+  ],
+  "Rock": [
+    "Water",
+    "Stone"
+  ],
+  "Ice": [
+    "Water",
+    "Fog"
+  ],
+  "Puddle": [
+    "Water",
+    "Ash"
+  ],
+  "River": [
+    "Water",
+    "Tree"
+  ],
+  "Beach": [
+    "Water",
+    "Sand"
+  ],
+  "Lightning": [
+    "Fire",
+    "Cloud"
+  ],
+  "Dragon": [
+    "Fire",
+    "Swamp"
+  ],
+  "Brick": [
+    "Fire",
+    "Mud"
+  ],
+  "Phoenix": [
+    "Fire",
+    "Ash"
+  ],
+  "Glass": [
+    "Fire",
+    "Sand"
+  ],
+  "Planet": [
+    "Earth",
+    "Dust"
+  ],
+  "Island": [
+    "Earth",
+    "Ocean"
+  ],
+  "Mist": [
+    "Earth",
+    "Fog"
+  ],
+  "Clay": [
+    "Earth",
+    "Mud"
+  ],
+  "Tractor": [
+    "Earth",
+    "Engine"
+  ],
+  "Soil": [
+    "Earth",
+    "Ash"
+  ],
+  "Forest": [
+    "Earth",
+    "Tree"
+  ],
+  "Desert": [
+    "Earth",
+    "Sand"
+  ],
+  "Storm": [
+    "Wind",
+    "Lake"
+  ],
+  "Dandelion": [
+    "Wind",
+    "Plant"
+  ],
+  "Eruption": [
+    "Wind",
+    "Volcano"
+  ],
+  "Avalanche": [
+    "Wind",
+    "Mountain"
+  ],
+  "Sandstorm": [
+    "Wind",
+    "Dust"
+  ],
+  "Hurricane": [
+    "Wind",
+    "Tsunami"
+  ],
+  "Windmill": [
+    "Wind",
+    "Engine"
+  ],
+  "Leaf": [
+    "Wind",
+    "Tree"
+  ],
+  "Dune": [
+    "Wind",
+    "Sand"
+  ],
+  "Lily": [
+    "Lake",
+    "Plant"
+  ],
+  "Fjord": [
+    "Lake",
+    "Mountain"
+  ],
+  "Sea": [
+    "Lake",
+    "Ocean"
+  ],
+  "Lighthouse": [
+    "Lake",
+    "Stone"
+  ],
+  "Boat": [
+    "Lake",
+    "Engine"
+  ],
+  "Tea": [
+    "Steam",
+    "Plant"
+  ],
+  "Surf": [
+    "Steam",
+    "Wave"
+  ],
+  "Titanic": [
+    "Steam",
+    "Tsunami"
+  ],
+  "Geysir": [
+    "Steam",
+    "Stone"
+  ],
+  "Train": [
+    "Steam",
+    "Engine"
+  ],
+  "Seaweed": [
+    "Plant",
+    "Wave"
+  ],
+  "Incense": [
+    "Plant",
+    "Smoke"
+  ],
+  "Pollen": [
+    "Plant",
+    "Dust"
+  ],
+  "Coral": [
+    "Plant",
+    "Ocean"
+  ],
+  "Venus Flytrap": [
+    "Plant",
+    "Swamp"
+  ],
+  "Fossil": [
+    "Plant",
+    "Stone"
+  ],
+  "Mushroom": [
+    "Plant",
+    "Fog"
+  ],
+  "Car": [
+    "Plant",
+    "Engine"
+  ],
+  "Tobacco": [
+    "Plant",
+    "Ash"
+  ],
+  "Cactus": [
+    "Plant",
+    "Sand"
+  ],
+  "Surfboard": [
+    "Wave",
+    "Tree"
+  ],
+  "Earthquake": [
+    "Volcano",
+    "Tsunami"
+  ],
+  "Obsidian": [
+    "Lava",
+    "Stone"
+  ],
+  "Fishbowl": [
+    "Water",
+    "Fish"
+  ],
+  "Rainbow": [
+    "Water",
+    "Rain"
+  ],
+  "Iceberg": [
+    "Water",
+    "Ice"
+  ],
+  "Pond": [
+    "Water",
+    "Puddle"
+  ],
+  "Electricity": [
+    "Water",
+    "Lightning"
+  ],
+  "Sea Serpent": [
+    "Water",
+    "Dragon"
+  ],
+  "Wine": [
+    "Water",
+    "Glass"
+  ],
+  "Ship": [
+    "Water",
+    "Island"
+  ],
+  "Pottery": [
+    "Water",
+    "Clay"
+  ],
+  "Oasis": [
+    "Water",
+    "Desert"
+  ],
+  "Energy": [
+    "Water",
+    "Windmill"
+  ],
+  "Whale": [
+    "Water",
+    "Fjord"
+  ],
+  "Submarine": [
+    "Water",
+    "Train"
+  ],
+  "Kelp": [
+    "Water",
+    "Seaweed"
+  ],
+  "Perfume": [
+    "Water",
+    "Incense"
+  ],
+  "Honey": [
+    "Water",
+    "Pollen"
+  ],
+  "Reef": [
+    "Water",
+    "Coral"
+  ],
+  "Oil": [
+    "Water",
+    "Fossil"
+  ],
+  "Soup": [
+    "Water",
+    "Mushroom"
+  ],
+  "Prickly Pear": [
+    "Water",
+    "Cactus"
+  ],
+  "Surfing": [
+    "Water",
+    "Surfboard"
+  ],
+  "Sushi": [
+    "Fire",
+    "Fish"
+  ],
+  "Sun": [
+    "Fire",
+    "Beach"
+  ],
+  "Kiln": [
+    "Fire",
+    "Brick"
+  ],
+  "Lens": [
+    "Fire",
+    "Glass"
+  ],
+  "Beacon": [
+    "Fire",
+    "Lighthouse"
+  ],
+  "Chai": [
+    "Fire",
+    "Tea"
+  ],
+  "Steam Engine": [
+    "Fire",
+    "Train"
+  ],
+  "Fire Trap": [
+    "Fire",
+    "Venus Flytrap"
+  ],
+  "Dinosaur": [
+    "Fire",
+    "Fossil"
+  ],
+  "Crash": [
+    "Fire",
+    "Car"
+  ],
+  "Cigarette": [
+    "Fire",
+    "Tobacco"
+  ],
+  "Saguaro": [
+    "Fire",
+    "Cactus"
+  ],
+  "Surfer": [
+    "Fire",
+    "Surfboard"
+  ],
+  "Snow": [
+    "Earth",
+    "Ice"
+  ],
+  "Delta": [
+    "Earth",
+    "River"
+  ],
+  "House": [
+    "Earth",
+    "Brick"
+  ],
+  "Bottle": [
+    "Earth",
+    "Glass"
+  ],
+  "Moon": [
+    "Earth",
+    "Planet"
+  ],
+  "Continent": [
+    "Earth",
+    "Island"
+  ],
+  "Farm": [
+    "Earth",
+    "Tractor"
+  ],
+  "Flower": [
+    "Earth",
+    "Dandelion"
+  ],
+  "Landslide": [
+    "Earth",
+    "Avalanche"
+  ],
+  "Land": [
+    "Earth",
+    "Fjord"
+  ],
+  "Teapot": [
+    "Earth",
+    "Tea"
+  ],
+  "Atlantis": [
+    "Earth",
+    "Titanic"
+  ],
+  "Toadstool": [
+    "Earth",
+    "Mushroom"
+  ],
+  "Tire": [
+    "Earth",
+    "Car"
+  ],
+  "Diamond": [
+    "Earth",
+    "Obsidian"
+  ],
+  "Flying Fish": [
+    "Wind",
+    "Fish"
+  ],
+  "Window": [
+    "Wind",
+    "Glass"
+  ],
+  "Seed": [
+    "Wind",
+    "Dandelion"
+  ],
+  "Dust Storm": [
+    "Wind",
+    "Sandstorm"
+  ],
+  "Sail": [
+    "Wind",
+    "Sea"
+  ],
+  "Kite": [
+    "Wind",
+    "Tea"
+  ],
+  "Zephyr": [
+    "Wind",
+    "Train"
+  ],
+  "Allergy": [
+    "Wind",
+    "Pollen"
+  ],
+  "Coral Reef": [
+    "Wind",
+    "Coral"
+  ],
+  "Spore": [
+    "Wind",
+    "Mushroom"
+  ],
+  "Tumbleweed": [
+    "Wind",
+    "Cactus"
+  ],
+  "Fishing": [
+    "Lake",
+    "Fish"
+  ],
+  "Loch Ness Monster": [
+    "Lake",
+    "Dragon"
+  ],
+  "Firebird": [
+    "Lake",
+    "Phoenix"
+  ],
+  "Mirror": [
+    "Lake",
+    "Glass"
+  ],
+  "Plow": [
+    "Lake",
+    "Tractor"
+  ],
+  "Wish": [
+    "Lake",
+    "Dandelion"
+  ],
+  "Lotus": [
+    "Lake",
+    "Lily"
+  ],
+  "Hot Spring": [
+    "Lake",
+    "Geysir"
+  ],
+  "Pipe": [
+    "Lake",
+    "Tobacco"
+  ],
+  "Geothermal": [
+    "Steam",
+    "Rock"
+  ],
+  "Sauna": [
+    "Steam",
+    "Beach"
+  ],
+  "Steampunk": [
+    "Steam",
+    "Dragon"
+  ],
+  "Geyser": [
+    "Steam",
+    "Eruption"
+  ],
+  "Steamboat": [
+    "Steam",
+    "Hurricane"
+  ],
+  "Locomotive": [
+    "Steam",
+    "Train"
+  ],
+  "Cigar": [
+    "Steam",
+    "Tobacco"
+  ],
+  "Palm": [
+    "Plant",
+    "Beach"
+  ],
+  "Wall": [
+    "Plant",
+    "Brick"
+  ],
+  "Pot": [
+    "Plant",
+    "Clay"
+  ],
+  "Weed": [
+    "Plant",
+    "Dandelion"
+  ],
+  "Snowman": [
+    "Plant",
+    "Avalanche"
+  ],
+  "Palm Tree": [
+    "Plant",
+    "Hurricane"
+  ],
+  "Raft": [
+    "Plant",
+    "Boat"
+  ],
+  "Carnivorous Plant": [
+    "Plant",
+    "Venus Flytrap"
+  ],
+  "Leviathan": [
+    "Water",
+    "Sea Serpent"
+  ],
+  "Holy Water": [
+    "Water",
+    "Wine"
+  ],
+  "Vase": [
+    "Water",
+    "Pottery"
+  ],
+  "Mirage": [
+    "Water",
+    "Oasis"
+  ],
+  "Scent": [
+    "Water",
+    "Perfume"
+  ],
+  "Meade": [
+    "Water",
+    "Honey"
+  ],
+  "Emulsion": [
+    "Water",
+    "Oil"
+  ],
+  "Microscope": [
+    "Water",
+    "Lens"
+  ],
+  "Plesiosaur": [
+    "Water",
+    "Dinosaur"
+  ],
+  "Tide": [
+    "Water",
+    "Moon"
+  ],
+  "Rice": [
+    "Water",
+    "Farm"
+  ],
+  "Aquarium": [
+    "Water",
+    "Window"
+  ],
+  "Sneeze": [
+    "Water",
+    "Allergy"
+  ],
+  "Algae": [
+    "Water",
+    "Spore"
+  ],
+  "Sponge": [
+    "Water",
+    "Tumbleweed"
+  ],
+  "Nessie": [
+    "Water",
+    "Loch Ness Monster"
+  ],
+  "Canal": [
+    "Water",
+    "Plow"
+  ],
+  "Genie": [
+    "Water",
+    "Wish"
+  ],
+  "Water Lily": [
+    "Water",
+    "Lotus"
+  ],
+  "Fountain": [
+    "Water",
+    "Pipe"
+  ],
+  "Sweat": [
+    "Water",
+    "Sauna"
+  ],
+  "Coconut": [
+    "Water",
+    "Palm"
+  ],
+  "Dam": [
+    "Water",
+    "Wall"
+  ],
+  "Bong": [
+    "Water",
+    "Weed"
+  ],
+  "Goldfish": [
+    "Fire",
+    "Fishbowl"
+  ],
+  "Alcohol": [
+    "Fire",
+    "Wine"
+  ],
+  "Cannon": [
+    "Fire",
+    "Ship"
+  ],
+  "Ceramic": [
+    "Fire",
+    "Pottery"
+  ],
+  "Explosion": [
+    "Fire",
+    "Energy"
+  ],
+  "Fireball": [
+    "Fire",
+    "Submarine"
+  ],
+  "Bee": [
+    "Fire",
+    "Honey"
+  ],
+  "Fuel": [
+    "Fire",
+    "Oil"
+  ],
+  "Chili": [
+    "Fire",
+    "Soup"
+  ],
+  "Wasabi": [
+    "Fire",
+    "Sushi"
+  ],
+  "Solar": [
+    "Fire",
+    "Sun"
+  ],
+  "Magnifying Glass": [
+    "Fire",
+    "Lens"
+  ],
+  "Barbecue": [
+    "Fire",
+    "Dinosaur"
+  ],
+  "Burn": [
+    "Fire",
+    "Crash"
+  ],
+  "Pyramid": [
+    "Fire",
+    "Delta"
+  ],
+  "Fireplace": [
+    "Fire",
+    "House"
+  ],
+  "Bomb": [
+    "Fire",
+    "Bottle"
+  ],
+  "Eclipse": [
+    "Fire",
+    "Moon"
+  ],
+  "Rubber": [
+    "Fire",
+    "Tire"
+  ],
+  "Coal": [
+    "Fire",
+    "Diamond"
+  ],
+  "Pirate": [
+    "Fire",
+    "Sail"
+  ],
+  "Fireworks": [
+    "Fire",
+    "Kite"
+  ],
+  "Flame": [
+    "Fire",
+    "Zephyr"
+  ],
+  "Sea Monster": [
+    "Fire",
+    "Loch Ness Monster"
+  ],
+  "Reflection": [
+    "Fire",
+    "Mirror"
+  ],
+  "Cook": [
+    "Fire",
+    "Pot"
+  ],
+  "Vineyard": [
+    "Earth",
+    "Wine"
+  ],
+  "Dirt": [
+    "Earth",
+    "Soup"
+  ],
+  "Telescope": [
+    "Earth",
+    "Lens"
+  ],
+  "Meteor": [
+    "Earth",
+    "Crash"
+  ],
+  "Field": [
+    "Earth",
+    "Farm"
+  ],
+  "Poseidon": [
+    "Earth",
+    "Atlantis"
+  ],
+  "Bird": [
+    "Earth",
+    "Flying Fish"
+  ],
+  "Robot": [
+    "Earth",
+    "Steampunk"
+  ],
+  "Fence": [
+    "Earth",
+    "Wall"
+  ],
+  "Balloon": [
+    "Wind",
+    "Wine"
+  ],
+  "Sailboat": [
+    "Wind",
+    "Submarine"
+  ],
+  "Smell": [
+    "Wind",
+    "Perfume"
+  ],
+  "Sunflower": [
+    "Wind",
+    "Sun"
+  ],
+  "Airplane": [
+    "Wind",
+    "Steam Engine"
+  ],
+  "Pterodactyl": [
+    "Wind",
+    "Dinosaur"
+  ],
+  "Blizzard": [
+    "Wind",
+    "Snow"
+  ],
+  "Werewolf": [
+    "Wind",
+    "Moon"
+  ],
+  "Kettle": [
+    "Wind",
+    "Teapot"
+  ],
+  "Curtain": [
+    "Wind",
+    "Window"
+  ],
+  "Flying": [
+    "Wind",
+    "Kite"
+  ],
+  "Whistle": [
+    "Wind",
+    "Pipe"
+  ],
+  "Airship": [
+    "Wind",
+    "Steampunk"
+  ],
+  "Unicorn": [
+    "Lake",
+    "Rainbow"
+  ],
+  "Electric Eel": [
+    "Lake",
+    "Energy"
+  ],
+  "Gasoline": [
+    "Lake",
+    "Oil"
+  ],
+  "Sunset": [
+    "Lake",
+    "Sun"
+  ],
+  "America": [
+    "Lake",
+    "Continent"
+  ],
+  "Frog": [
+    "Lake",
+    "Toadstool"
+  ],
+  "Wheel": [
+    "Lake",
+    "Tire"
+  ],
+  "Hay Fever": [
+    "Lake",
+    "Allergy"
+  ],
+  "Narcissus": [
+    "Lake",
+    "Mirror"
+  ],
+  "Drain": [
+    "Lake",
+    "Pipe"
+  ],
+  "Finland": [
+    "Lake",
+    "Sauna"
+  ],
+  "Lily Pad": [
+    "Lake",
+    "Weed"
+  ],
+  "Yeti": [
+    "Lake",
+    "Snowman"
+  ],
+  "Stew": [
+    "Steam",
+    "Wine"
+  ],
+  "Steamship": [
+    "Steam",
+    "Ship"
+  ],
+  "Captain Nemo": [
+    "Steam",
+    "Submarine"
+  ],
+  "Sashimi": [
+    "Steam",
+    "Sushi"
+  ],
+  "Camera": [
+    "Steam",
+    "Lens"
+  ],
+  "Steam Trap": [
+    "Steam",
+    "Fire Trap"
+  ],
+  "Stegosaurus": [
+    "Steam",
+    "Dinosaur"
+  ],
+  "Steamroller": [
+    "Steam",
+    "Surfer"
+  ],
+  "Pressure": [
+    "Steam",
+    "Diamond"
+  ],
+  "Jet": [
+    "Steam",
+    "Flying Fish"
+  ],
+  "Ghost": [
+    "Steam",
+    "Tumbleweed"
+  ],
+  "Graffiti": [
+    "Steam",
+    "Wall"
+  ],
+  "Vaporizer": [
+    "Steam",
+    "Weed"
+  ],
+  "Penguin": [
+    "Plant",
+    "Iceberg"
+  ],
+  "Vine": [
+    "Plant",
+    "Wine"
+  ],
+  "Date": [
+    "Plant",
+    "Oasis"
+  ],
+  "Krill": [
+    "Plant",
+    "Whale"
+  ],
+  "Salad": [
+    "Plant",
+    "Soup"
+  ],
+  "Fire Flower": [
+    "Plant",
+    "Fire Trap"
+  ],
+  "Christmas Tree": [
+    "Plant",
+    "Snow"
+  ],
+  "Garden": [
+    "Plant",
+    "House"
+  ],
+  "Food": [
+    "Plant",
+    "Farm"
+  ],
+  "Emerald": [
+    "Plant",
+    "Diamond"
+  ],
+  "Greenhouse": [
+    "Plant",
+    "Window"
+  ],
+  "Nothing": [
+    "Plant",
+    "Steampunk"
+  ],
+  "Cotton": [
+    "Plant",
+    "Steamboat"
+  ],
+  "Ivy": [
+    "Plant",
+    "Wall"
+  ],
+  "Canoe": [
+    "Plant",
+    "Raft"
+  ],
+  "Mermaid": [
+    "Wave",
+    "Lily"
+  ],
+  "Shipwreck": [
+    "Wave",
+    "Lighthouse"
+  ],
+  "Ammonite": [
+    "Wave",
+    "Fossil"
+  ],
+  "Amphora": [
+    "Wave",
+    "Pottery"
+  ],
+  "Beach House": [
+    "Wave",
+    "House"
+  ],
+  "Ice Cream": [
+    "Volcano",
+    "Ice"
+  ],
+  "Hawaii": [
+    "Volcano",
+    "Beach"
+  ],
+  "Mars": [
+    "Volcano",
+    "Dune"
+  ],
+  "Iceland": [
+    "Volcano",
+    "Fjord"
+  ],
+  "Venus": [
+    "Volcano",
+    "Venus Flytrap"
+  ],
+  "Krakken": [
+    "Volcano",
+    "Sea Serpent"
+  ],
+  "Pompeii": [
+    "Volcano",
+    "Seed"
+  ],
+  "Life": [
+    "Volcano",
+    "Spore"
+  ],
+  "Fishing Rod": [
+    "Volcano",
+    "Fishing"
+  ],
+  "Lava Monster": [
+    "Volcano",
+    "Loch Ness Monster"
+  ],
+  "Echo": [
+    "Volcano",
+    "Mirror"
+  ],
+  "Fortress": [
+    "Volcano",
+    "Wall"
+  ],
+  "Pumice": [
+    "Volcano",
+    "Raft"
+  ],
+  "Salamander": [
+    "Lava",
+    "Fish"
+  ],
+  "Magma": [
+    "Lava",
+    "Electricity"
+  ],
+  "Stone Soup": [
+    "Lava",
+    "Soup"
+  ],
+  "Milk": [
+    "Water",
+    "Emulsion"
+  ],
+  "Amoeba": [
+    "Water",
+    "Microscope"
+  ],
+  "Venice": [
+    "Water",
+    "Canal"
+  ],
+  "Salt": [
+    "Water",
+    "Sweat"
+  ],
+  "Hydroelectricity": [
+    "Water",
+    "Dam"
+  ],
+  "Bubbles": [
+    "Water",
+    "Bong"
+  ],
+  "Tomb": [
+    "Water",
+    "Pyramid"
+  ],
+  "Duck": [
+    "Water",
+    "Rubber"
+  ],
+  "Splash": [
+    "Water",
+    "Fireworks"
+  ],
+  "Meteorite": [
+    "Water",
+    "Meteor"
+  ],
+  "Moat": [
+    "Water",
+    "Fence"
+  ],
+  "Narwhal": [
+    "Water",
+    "Unicorn"
+  ],
+  "Sunrise": [
+    "Water",
+    "Sunset"
+  ],
+  "Freedom": [
+    "Water",
+    "America"
+  ],
+  "Tadpole": [
+    "Water",
+    "Frog"
+  ],
+  "Sink": [
+    "Water",
+    "Drain"
+  ],
+  "Abominable Snowman": [
+    "Water",
+    "Yeti"
+  ],
+  "Plane": [
+    "Water",
+    "Jet"
+  ],
+  "Dating": [
+    "Water",
+    "Date"
+  ],
+  "Cloth": [
+    "Water",
+    "Cotton"
+  ],
+  "Milkshake": [
+    "Water",
+    "Ice Cream"
+  ],
+  "Aphrodite": [
+    "Water",
+    "Venus"
+  ],
+  "Gondola": [
+    "Water",
+    "Venice"
+  ],
+  "Brine": [
+    "Water",
+    "Salt"
+  ],
+  "Moses": [
+    "Water",
+    "Tomb"
+  ],
+  "Duckling": [
+    "Water",
+    "Duck"
+  ],
+  "Slavery": [
+    "Water",
+    "Freedom"
+  ],
+  "Marriage": [
+    "Water",
+    "Dating"
+  ],
+  "Vampire": [
+    "Fire",
+    "Holy Water"
+  ],
+  "Virus": [
+    "Fire",
+    "Microscope"
+  ],
+  "Cough": [
+    "Fire",
+    "Sneeze"
+  ],
+  "Boiled Fish": [
+    "Fire",
+    "Goldfish"
+  ],
+  "Cannonball": [
+    "Fire",
+    "Cannon"
+  ],
+  "Hot": [
+    "Fire",
+    "Chili"
+  ],
+  "Fire Breath": [
+    "Fire",
+    "Wasabi"
+  ],
+  "Grill": [
+    "Fire",
+    "Barbecue"
+  ],
+  "Mummy": [
+    "Fire",
+    "Pyramid"
+  ],
+  "Warmth": [
+    "Fire",
+    "Fireplace"
+  ],
+  "Kraken": [
+    "Fire",
+    "Sea Monster"
+  ],
+  "Chef": [
+    "Fire",
+    "Cook"
+  ],
+  "Crop": [
+    "Fire",
+    "Field"
+  ],
+  "Pop": [
+    "Fire",
+    "Balloon"
+  ],
+  "Firefighter": [
+    "Fire",
+    "Whistle"
+  ],
+  "Boiling Frog": [
+    "Fire",
+    "Frog"
+  ],
+  "Nautilus": [
+    "Fire",
+    "Captain Nemo"
+  ],
+  "Flash": [
+    "Fire",
+    "Camera"
+  ],
+  "Fire-osaurus": [
+    "Fire",
+    "Stegosaurus"
+  ],
+  "Rocket": [
+    "Fire",
+    "Jet"
+  ],
+  "Romance": [
+    "Fire",
+    "Date"
+  ],
+  "Shrimp": [
+    "Fire",
+    "Krill"
+  ],
+  "Salsa": [
+    "Fire",
+    "Salad"
+  ],
+  "Cooking": [
+    "Fire",
+    "Food"
+  ],
+  "Green": [
+    "Fire",
+    "Emerald"
+  ],
+  "Poison": [
+    "Fire",
+    "Ivy"
+  ],
+  "Paddle": [
+    "Fire",
+    "Canoe"
+  ],
+  "Siren": [
+    "Fire",
+    "Mermaid"
+  ],
+  "Ammonia": [
+    "Fire",
+    "Ammonite"
+  ],
+  "Ashes": [
+    "Fire",
+    "Beach House"
+  ],
+  "Hot Fudge": [
+    "Fire",
+    "Ice Cream"
+  ],
+  "Firekraken": [
+    "Fire",
+    "Krakken"
+  ],
+  "Cheese": [
+    "Fire",
+    "Milk"
+  ],
+  "Sodium": [
+    "Fire",
+    "Salt"
+  ],
+  "Soda": [
+    "Fire",
+    "Bubbles"
+  ],
+  "Roast Duck": [
+    "Fire",
+    "Duck"
+  ],
+  "Toast": [
+    "Fire",
+    "Abominable Snowman"
+  ],
+  "Love": [
+    "Fire",
+    "Dating"
+  ],
+  "Titan": [
+    "Earth",
+    "Leviathan"
+  ],
+  "Cider": [
+    "Earth",
+    "Meade"
+  ],
+  "Bacteria": [
+    "Earth",
+    "Microscope"
+  ],
+  "Paddy": [
+    "Earth",
+    "Rice"
+  ],
+  "Pepper": [
+    "Earth",
+    "Chili"
+  ],
+  "Sphinx": [
+    "Earth",
+    "Pyramid"
+  ],
+  "Treasure": [
+    "Earth",
+    "Pirate"
+  ],
+  "Chicken": [
+    "Earth",
+    "Bird"
+  ],
+  "Golem": [
+    "Earth",
+    "Robot"
+  ],
+  "Landing": [
+    "Earth",
+    "Airplane"
+  ],
+  "Wolf": [
+    "Earth",
+    "Werewolf"
+  ],
+  "Referee": [
+    "Earth",
+    "Whistle"
+  ],
+  "Landship": [
+    "Earth",
+    "Airship"
+  ],
+  "Pegasus": [
+    "Earth",
+    "Unicorn"
+  ],
+  "Battery": [
+    "Earth",
+    "Electric Eel"
+  ],
+  "USA": [
+    "Earth",
+    "America"
+  ],
+  "Toad": [
+    "Earth",
+    "Frog"
+  ],
+  "Sinkhole": [
+    "Earth",
+    "Drain"
+  ],
+  "Santa": [
+    "Earth",
+    "Finland"
+  ],
+  "Photographer": [
+    "Earth",
+    "Camera"
+  ],
+  "Flat Earth": [
+    "Earth",
+    "Steamroller"
+  ],
+  "Zombie": [
+    "Earth",
+    "Ghost"
+  ],
+  "Art": [
+    "Earth",
+    "Graffiti"
+  ],
+  "Grape": [
+    "Earth",
+    "Vine"
+  ],
+  "Pineapple": [
+    "Earth",
+    "Christmas Tree"
+  ],
+  "Sand Castle": [
+    "Earth",
+    "Beach House"
+  ],
+  "Greenland": [
+    "Earth",
+    "Iceland"
+  ],
+  "Human": [
+    "Earth",
+    "Life"
+  ],
+  "Bait": [
+    "Earth",
+    "Fishing Rod"
+  ],
+  "Castle": [
+    "Earth",
+    "Fortress"
+  ],
+  "Lizard": [
+    "Earth",
+    "Salamander"
+  ],
+  "Grave": [
+    "Earth",
+    "Tomb"
+  ],
+  "Day": [
+    "Earth",
+    "Sunrise"
+  ],
+  "Angel": [
+    "Wind",
+    "Holy Water"
+  ],
+  "Fan": [
+    "Wind",
+    "Vase"
+  ],
+  "Breeze": [
+    "Wind",
+    "Meade"
+  ],
+  "Hangover": [
+    "Wind",
+    "Alcohol"
+  ],
+  "Fire Tornado": [
+    "Wind",
+    "Fireball"
+  ],
+  "Comet": [
+    "Wind",
+    "Meteor"
+  ],
+  "Fart": [
+    "Wind",
+    "Smell"
+  ],
+  "Zeppelin": [
+    "Wind",
+    "Airship"
+  ],
+  "Prince": [
+    "Wind",
+    "Frog"
+  ],
+  "Ariel": [
+    "Wind",
+    "Mermaid"
+  ],
+  "Hula": [
+    "Wind",
+    "Hawaii"
+  ],
+  "Vesuvius": [
+    "Wind",
+    "Pompeii"
+  ],
+  "Whisper": [
+    "Wind",
+    "Echo"
+  ],
+  "Butter": [
+    "Wind",
+    "Milk"
+  ],
+  "Paramecium": [
+    "Wind",
+    "Amoeba"
+  ],
+  "Bubble": [
+    "Wind",
+    "Bubbles"
+  ],
+  "Goose": [
+    "Wind",
+    "Duck"
+  ],
+  "Breakup": [
+    "Wind",
+    "Dating"
+  ],
+  "Urn": [
+    "Lake",
+    "Vase"
+  ],
+  "Beer": [
+    "Lake",
+    "Meade"
+  ],
+  "Plankton": [
+    "Lake",
+    "Microscope"
+  ],
+  "Sake": [
+    "Lake",
+    "Rice"
+  ],
+  "SpongeBob": [
+    "Lake",
+    "Sponge"
+  ],
+  "Monster": [
+    "Lake",
+    "Nessie"
+  ],
+  "Waterfall": [
+    "Lake",
+    "Fountain"
+  ],
+  "Coconut Milk": [
+    "Lake",
+    "Coconut"
+  ],
+  "Vodka": [
+    "Lake",
+    "Alcohol"
+  ],
+  "Cayenne": [
+    "Lake",
+    "Chili"
+  ],
+  "Galileo": [
+    "Lake",
+    "Telescope"
+  ],
+  "Swan": [
+    "Lake",
+    "Bird"
+  ],
+  "Yacht": [
+    "Lake",
+    "Sailboat"
+  ],
+  "Seaplane": [
+    "Lake",
+    "Airplane"
+  ],
+  "Seagull": [
+    "Lake",
+    "Flying"
+  ],
+  "Oil Spill": [
+    "Lake",
+    "Gasoline"
+  ],
+  "Niagara Falls": [
+    "Lake",
+    "America"
+  ],
+  "Ferris Wheel": [
+    "Lake",
+    "Wheel"
+  ],
+  "Tux": [
+    "Lake",
+    "Penguin"
+  ],
+  "Salmon": [
+    "Lake",
+    "Salad"
+  ],
+  "Paper": [
+    "Lake",
+    "Cotton"
+  ],
+  "Loch Ness": [
+    "Lake",
+    "Ivy"
+  ],
+  "Kayak": [
+    "Lake",
+    "Canoe"
+  ],
+  "Dead Sea": [
+    "Lake",
+    "Salt"
+  ],
+  "Power": [
+    "Steam",
+    "Dam"
+  ],
+  "Space": [
+    "Steam",
+    "Telescope"
+  ],
+  "Vacuum": [
+    "Steam",
+    "Drain"
+  ],
+  "Photograph": [
+    "Steam",
+    "Camera"
+  ],
+  "Time": [
+    "Steam",
+    "Date"
+  ],
+  "Gem": [
+    "Steam",
+    "Emerald"
+  ],
+  "Steam Monster": [
+    "Steam",
+    "Lava Monster"
+  ],
+  "Shower": [
+    "Steam",
+    "Sink"
+  ],
+  "Cell": [
+    "Plant",
+    "Microscope"
+  ],
+  "Rice Paddy": [
+    "Plant",
+    "Rice"
+  ],
+  "Biofuel": [
+    "Plant",
+    "Fuel"
+  ],
+  "Oxygen": [
+    "Plant",
+    "Solar"
+  ],
+  "Dynamite": [
+    "Plant",
+    "Bomb"
+  ],
+  "Parrot": [
+    "Plant",
+    "Pirate"
+  ],
+  "Firefly": [
+    "Plant",
+    "Flame"
+  ],
+  "Corn": [
+    "Plant",
+    "Field"
+  ],
+  "Fruit": [
+    "Plant",
+    "Bird"
+  ],
+  "Cyborg": [
+    "Plant",
+    "Robot"
+  ],
+  "Wolfsbane": [
+    "Plant",
+    "Werewolf"
+  ],
+  "Candy": [
+    "Plant",
+    "Unicorn"
+  ],
+  "Pine": [
+    "Plant",
+    "Finland"
+  ],
+  "Pulp": [
+    "Plant",
+    "Steamroller"
+  ],
+  "Poison Ivy": [
+    "Plant",
+    "Ivy"
+  ],
+  "Potato": [
+    "Plant",
+    "Mars"
+  ],
+  "Lichen": [
+    "Plant",
+    "Iceland"
+  ],
+  "Venus Fly Trap": [
+    "Plant",
+    "Lava Monster"
+  ],
+  "Reverb": [
+    "Plant",
+    "Echo"
+  ],
+  "Treehouse": [
+    "Plant",
+    "Fortress"
+  ],
+  "Pickle": [
+    "Plant",
+    "Salt"
+  ],
+  "Duckweed": [
+    "Plant",
+    "Duck"
+  ],
+  "Rose": [
+    "Plant",
+    "Dating"
+  ],
+  "Radio": [
+    "Wave",
+    "Microscope"
+  ],
+  "Sea Horse": [
+    "Wave",
+    "Unicorn"
+  ],
+  "Tuxedo": [
+    "Wave",
+    "Penguin"
+  ],
+  "Sailor": [
+    "Wave",
+    "Shipwreck"
+  ],
+  "Crab": [
+    "Wave",
+    "Amoeba"
+  ],
+  "Tidal Power": [
+    "Wave",
+    "Hydroelectricity"
+  ],
+  "Krakatoa": [
+    "Volcano",
+    "Leviathan"
+  ],
+  "Lava Lamp": [
+    "Volcano",
+    "Vase"
+  ],
+  "Pizza": [
+    "Volcano",
+    "Rice"
+  ],
+  "Sulfur": [
+    "Volcano",
+    "Smell"
+  ],
+  "Chariot": [
+    "Volcano",
+    "Wheel"
+  ],
+  "Green Dragon": [
+    "Volcano",
+    "Emerald"
+  ],
+  "Cotton Candy": [
+    "Volcano",
+    "Cotton"
+  ],
+  "Ammonoid": [
+    "Volcano",
+    "Ammonite"
+  ],
+  "Lava Cake": [
+    "Volcano",
+    "Ice Cream"
+  ],
+  "Olympus Mons": [
+    "Volcano",
+    "Mars"
+  ],
+  "Eyjafjallajökull": [
+    "Volcano",
+    "Iceland"
+  ],
+  "Vulcan": [
+    "Volcano",
+    "Venus"
+  ],
+  "Lava Soup": [
+    "Volcano",
+    "Stone Soup"
+  ],
+  "Popcorn": [
+    "Volcano",
+    "Salt"
+  ],
+  "Liberty": [
+    "Volcano",
+    "Freedom"
+  ],
+  "Ring": [
+    "Lava",
+    "Diamond"
+  ],
+  "Gold": [
+    "Lava",
+    "Goldfish"
+  ],
+  "Ammolite": [
+    "Lava",
+    "Ammonite"
+  ],
+  "Statue": [
+    "Smoke",
+    "Stone"
+  ],
+  "Thunder": [
+    "Smoke",
+    "Lightning"
+  ],
+  "Chimney": [
+    "Smoke",
+    "Brick"
+  ],
+  "Prayer": [
+    "Smoke",
+    "Incense"
+  ],
+  "Smoke Detector": [
+    "Smoke",
+    "Venus Flytrap"
+  ],
+  "Exhaust": [
+    "Smoke",
+    "Car"
+  ],
+  "Vapor": [
+    "Smoke",
+    "Fishbowl"
+  ],
+  "Smoker": [
+    "Smoke",
+    "Wine"
+  ],
+  "Vape": [
+    "Smoke",
+    "Whale"
+  ],
+  "Periscope": [
+    "Smoke",
+    "Submarine"
+  ],
+  "Carbon": [
+    "Smoke",
+    "Diamond"
+  ],
+  "Sky": [
+    "Smoke",
+    "Kite"
+  ],
+  "Cowboy": [
+    "Smoke",
+    "Tumbleweed"
+  ],
+  "Hookah": [
+    "Smoke",
+    "Pipe"
+  ],
+  "High": [
+    "Smoke",
+    "Weed"
+  ],
+  "Frost": [
+    "Smoke",
+    "Snowman"
+  ],
+  "Illusion": [
+    "Smoke",
+    "Mirage"
+  ],
+  "Smog": [
+    "Smoke",
+    "Algae"
+  ],
+  "Djinn": [
+    "Smoke",
+    "Genie"
+  ],
+  "Gunpowder": [
+    "Smoke",
+    "Cannon"
+  ],
+  "Pollution": [
+    "Smoke",
+    "Coal"
+  ],
+  "Skull": [
+    "Smoke",
+    "Pirate"
+  ],
+  "Astronomer": [
+    "Smoke",
+    "Telescope"
+  ],
+  "Smoke Signal": [
+    "Smoke",
+    "Sunflower"
+  ],
+  "Magic": [
+    "Smoke",
+    "Curtain"
+  ],
+  "Bacon": [
+    "Smoke",
+    "Salt"
+  ],
+  "Smoked Duck": [
+    "Smoke",
+    "Duck"
+  ],
+  "Mountain Range": [
+    "Mountain",
+    "Mountain"
+  ],
+  "Canyon": [
+    "Mountain",
+    "River"
+  ],
+  "Crystal": [
+    "Mountain",
+    "Glass"
+  ],
+  "Bulldozer": [
+    "Mountain",
+    "Tractor"
+  ],
+  "Mountain Dew": [
+    "Mountain",
+    "Dandelion"
+  ],
+  "Norway": [
+    "Mountain",
+    "Fjord"
+  ],
+  "Everest": [
+    "Mountain",
+    "Titanic"
+  ],
+  "Tunnel": [
+    "Mountain",
+    "Train"
+  ],
+  "Buddha": [
+    "Mountain",
+    "Incense"
+  ],
+  "Snowboard": [
+    "Mountain",
+    "Surfboard"
+  ],
+  "Glacier": [
+    "Mountain",
+    "Iceberg"
+  ],
+  "Bear": [
+    "Mountain",
+    "Honey"
+  ],
+  "Cave": [
+    "Mountain",
+    "House"
+  ],
+  "Crescent": [
+    "Mountain",
+    "Moon"
+  ],
+  "Asia": [
+    "Mountain",
+    "Continent"
+  ],
+  "Goat": [
+    "Mountain",
+    "Farm"
+  ],
+  "Jewel": [
+    "Mountain",
+    "Diamond"
+  ],
+  "Eagle": [
+    "Mountain",
+    "Kite"
+  ],
+  "Bridge": [
+    "Mountain",
+    "Raft"
+  ],
+  "Lock": [
+    "Mountain",
+    "Canal"
+  ],
+  "Spring": [
+    "Mountain",
+    "Fountain"
+  ],
+  "Monkey": [
+    "Mountain",
+    "Coconut"
+  ],
+  "Observatory": [
+    "Mountain",
+    "Telescope"
+  ],
+  "Valley": [
+    "Mountain",
+    "Field"
+  ],
+  "Voltron": [
+    "Mountain",
+    "Robot"
+  ],
+  "Stage": [
+    "Mountain",
+    "Curtain"
+  ],
+  "Mount Rushmore": [
+    "Mountain",
+    "America"
+  ],
+  "Cog": [
+    "Mountain",
+    "Wheel"
+  ],
+  "Heidi": [
+    "Mountain",
+    "Hay Fever"
+  ],
+  "Lapland": [
+    "Mountain",
+    "Finland"
+  ],
+  "Molehill": [
+    "Mountain",
+    "Captain Nemo"
+  ],
+  "Snapshot": [
+    "Mountain",
+    "Camera"
+  ],
+  "Flat": [
+    "Mountain",
+    "Steamroller"
+  ],
+  "Inca": [
+    "Mountain",
+    "Emerald"
+  ],
+  "Cliff": [
+    "Mountain",
+    "Ivy"
+  ],
+  "Chalet": [
+    "Mountain",
+    "Beach House"
+  ],
+  "Olympus": [
+    "Mountain",
+    "Mars"
+  ],
+  "Yogurt": [
+    "Mountain",
+    "Milk"
+  ],
+  "Relationship": [
+    "Mountain",
+    "Dating"
+  ],
+  "Cinder": [
+    "Dust",
+    "Ash"
+  ],
+  "Wood": [
+    "Dust",
+    "Tree"
+  ],
+  "Starfish": [
+    "Dust",
+    "Fish"
+  ],
+  "Dragonfly": [
+    "Dust",
+    "Dragon"
+  ],
+  "Fairy": [
+    "Dust",
+    "Forest"
+  ],
+  "Flour": [
+    "Dust",
+    "Windmill"
+  ],
+  "Compost": [
+    "Dust",
+    "Leaf"
+  ],
+  "Troll": [
+    "Dust",
+    "Fjord"
+  ],
+  "Tea Bag": [
+    "Dust",
+    "Tea"
+  ],
+  "Dustbin": [
+    "Dust",
+    "Train"
+  ],
+  "Dust Trap": [
+    "Dust",
+    "Venus Flytrap"
+  ],
+  "Fungus": [
+    "Dust",
+    "Mushroom"
+  ],
+  "Rust": [
+    "Dust",
+    "Car"
+  ],
+  "Vinegar": [
+    "Dust",
+    "Wine"
+  ],
+  "Star": [
+    "Dust",
+    "Energy"
+  ],
+  "Sperm": [
+    "Dust",
+    "Whale"
+  ],
+  "Clean": [
+    "Dust",
+    "Perfume"
+  ],
+  "Lunar": [
+    "Dust",
+    "Moon"
+  ],
+  "Dust Bowl": [
+    "Dust",
+    "Farm"
+  ],
+  "Flying Dust": [
+    "Dust",
+    "Flying Fish"
+  ],
+  "Dustpan": [
+    "Dust",
+    "Pot"
+  ],
+  "Dust Bunny": [
+    "Dust",
+    "Leviathan"
+  ],
+  "Paint": [
+    "Dust",
+    "Emulsion"
+  ],
+  "Rice Pudding": [
+    "Dust",
+    "Rice"
+  ],
+  "Lamp": [
+    "Dust",
+    "Genie"
+  ],
+  "Damn": [
+    "Dust",
+    "Dam"
+  ],
+  "Drunk": [
+    "Dust",
+    "Alcohol"
+  ],
+  "Spice": [
+    "Dust",
+    "Chili"
+  ],
+  "Dusty": [
+    "Dust",
+    "Pirate"
+  ],
+  "Feather": [
+    "Dust",
+    "Bird"
+  ],
+  "Cemetery": [
+    "Dust",
+    "Fence"
+  ],
+  "Crop Duster": [
+    "Dust",
+    "Airplane"
+  ],
+  "Broom": [
+    "Dust",
+    "Whistle"
+  ],
+  "Glitter": [
+    "Dust",
+    "Unicorn"
+  ],
+  "Trump": [
+    "Dust",
+    "America"
+  ],
+  "Narcissism": [
+    "Dust",
+    "Narcissus"
+  ],
+  "Finnish": [
+    "Dust",
+    "Finland"
+  ],
+  "Nemo": [
+    "Dust",
+    "Captain Nemo"
+  ],
+  "Sandwich": [
+    "Dust",
+    "Salad"
+  ],
+  "Universe": [
+    "Dust",
+    "Nothing"
+  ],
+  "Spider": [
+    "Dust",
+    "Ivy"
+  ],
+  "Wet": [
+    "Water",
+    "Cloth"
+  ],
+  "Salt Water": [
+    "Water",
+    "Brine"
+  ],
+  "Parting": [
+    "Water",
+    "Moses"
+  ],
+  "Divorce": [
+    "Water",
+    "Marriage"
+  ],
+  "Blood": [
+    "Water",
+    "Vampire"
+  ],
+  "Sick": [
+    "Water",
+    "Virus"
+  ],
+  "Lung": [
+    "Water",
+    "Cough"
+  ],
+  "Hot Water": [
+    "Water",
+    "Warmth"
+  ],
+  "Squid": [
+    "Water",
+    "Kraken"
+  ],
+  "Shell": [
+    "Water",
+    "Nautilus"
+  ],
+  "Extinction": [
+    "Water",
+    "Fire-osaurus"
+  ],
+  "Sauce": [
+    "Water",
+    "Salsa"
+  ],
+  "Acid": [
+    "Water",
+    "Poison"
+  ],
+  "Chocolate Milk": [
+    "Water",
+    "Hot Fudge"
+  ],
+  "Soggy Toast": [
+    "Water",
+    "Toast"
+  ],
+  "Apple": [
+    "Water",
+    "Cider"
+  ],
+  "Nile": [
+    "Water",
+    "Sphinx"
+  ],
+  "Snap": [
+    "Water",
+    "Photographer"
+  ],
+  "Juice": [
+    "Water",
+    "Pineapple"
+  ],
+  "Crocodile": [
+    "Water",
+    "Lizard"
+  ],
+  "Night": [
+    "Water",
+    "Day"
+  ],
+  "Cure": [
+    "Water",
+    "Hangover"
+  ],
+  "Hula Hoop": [
+    "Water",
+    "Hula"
+  ],
+  "Butterfly": [
+    "Water",
+    "Butter"
+  ],
+  "Gosling": [
+    "Water",
+    "Goose"
+  ],
+  "Tears": [
+    "Water",
+    "Breakup"
+  ],
+  "Tear": [
+    "Water",
+    "Urn"
+  ],
+  "Saki": [
+    "Water",
+    "Sake"
+  ],
+  "Coconut Water": [
+    "Water",
+    "Coconut Milk"
+  ],
+  "Hot Sauce": [
+    "Water",
+    "Cayenne"
+  ],
+  "Merry-Go-Round": [
+    "Water",
+    "Ferris Wheel"
+  ],
+  "Black Hole": [
+    "Water",
+    "Space"
+  ],
+  "Hydrogen": [
+    "Water",
+    "Oxygen"
+  ],
+  "Aquaman": [
+    "Water",
+    "Cyborg"
+  ],
+  "Lobster": [
+    "Water",
+    "Crab"
+  ],
+  "Sea Dragon": [
+    "Water",
+    "Green Dragon"
+  ],
+  "Sugar": [
+    "Water",
+    "Cotton Candy"
+  ],
+  "Flood": [
+    "Water",
+    "Eyjafjallajökull"
+  ],
+  "Money": [
+    "Water",
+    "Gold"
+  ],
+  "Drowned Cowboy": [
+    "Water",
+    "Cowboy"
+  ],
+  "Acid Rain": [
+    "Water",
+    "Smog"
+  ],
+  "Witch": [
+    "Water",
+    "Magic"
+  ],
+  "Duck Soup": [
+    "Water",
+    "Smoked Duck"
+  ],
+  "Polar Bear": [
+    "Water",
+    "Bear"
+  ],
+  "Pacific": [
+    "Water",
+    "Asia"
+  ],
+  "Pearl": [
+    "Water",
+    "Jewel"
+  ],
+  "Ape": [
+    "Water",
+    "Monkey"
+  ],
+  "Curd": [
+    "Water",
+    "Yogurt"
+  ],
+  "Pasta": [
+    "Water",
+    "Flour"
+  ],
+  "Iron": [
+    "Water",
+    "Rust"
+  ],
+  "Baby": [
+    "Water",
+    "Sperm"
+  ],
+  "Drink": [
+    "Water",
+    "Clean"
+  ],
+  "Mop": [
+    "Water",
+    "Dustpan"
+  ],
+  "Pen": [
+    "Water",
+    "Feather"
+  ],
+  "Soggy": [
+    "Water",
+    "Sandwich"
+  ],
+  "Drowner": [
+    "Water",
+    "Spider"
+  ],
+  "Hot Fudge Sundae": [
+    "Fire",
+    "Milkshake"
+  ],
+  "Burning Bush": [
+    "Fire",
+    "Moses"
+  ],
+  "Flu": [
+    "Fire",
+    "Virus"
+  ],
+  "Heat": [
+    "Fire",
+    "Hot"
+  ],
+  "Chlorine": [
+    "Fire",
+    "Green"
+  ],
+  "Venom": [
+    "Fire",
+    "Poison"
+  ],
+  "Sundae": [
+    "Fire",
+    "Hot Fudge"
+  ],
+  "Fire Duck": [
+    "Fire",
+    "Roast Duck"
+  ],
+  "Burnt Toast": [
+    "Fire",
+    "Toast"
+  ],
+  "Passion": [
+    "Fire",
+    "Love"
+  ],
+  "Prometheus": [
+    "Fire",
+    "Titan"
+  ],
+  "Spicy": [
+    "Fire",
+    "Pepper"
+  ],
+  "Roast": [
+    "Fire",
+    "Chicken"
+  ],
+  "Hellhound": [
+    "Fire",
+    "Wolf"
+  ],
+  "Tank": [
+    "Fire",
+    "Landship"
+  ],
+  "Flag": [
+    "Fire",
+    "USA"
+  ],
+  "Santa Claus": [
+    "Fire",
+    "Santa"
+  ],
+  "Skeleton": [
+    "Fire",
+    "Zombie"
+  ],
+  "Painting": [
+    "Fire",
+    "Art"
+  ],
+  "Firewater": [
+    "Fire",
+    "Hangover"
+  ],
+  "Burning Zeppelin": [
+    "Fire",
+    "Zeppelin"
+  ],
+  "Fire Dance": [
+    "Fire",
+    "Hula"
+  ],
+  "Fireplane": [
+    "Fire",
+    "Seaplane"
+  ],
+  "Fireman": [
+    "Fire",
+    "Tux"
+  ],
+  "Ruby": [
+    "Fire",
+    "Gem"
+  ],
+  "Fire Monster": [
+    "Fire",
+    "Steam Monster"
+  ],
+  "Marshmallow": [
+    "Fire",
+    "Candy"
+  ],
+  "Chip": [
+    "Fire",
+    "Potato"
+  ],
+  "Microwave": [
+    "Fire",
+    "Radio"
+  ],
+  "Oven": [
+    "Fire",
+    "Pizza"
+  ],
+  "Brimstone": [
+    "Fire",
+    "Sulfur"
+  ],
+  "Red Dragon": [
+    "Fire",
+    "Green Dragon"
+  ],
+  "Midas": [
+    "Fire",
+    "Gold"
+  ],
+  "Candle": [
+    "Fire",
+    "Prayer"
+  ],
+  "SOS": [
+    "Fire",
+    "Smoke Signal"
+  ],
+  "Crispy": [
+    "Fire",
+    "Bacon"
+  ],
+  "Viking": [
+    "Fire",
+    "Norway"
+  ],
+  "Enlightenment": [
+    "Fire",
+    "Buddha"
+  ],
+  "China": [
+    "Fire",
+    "Asia"
+  ],
+  "Satyr": [
+    "Fire",
+    "Goat"
+  ],
+  "Key": [
+    "Fire",
+    "Lock"
+  ],
+  "Hot Monkey": [
+    "Fire",
+    "Monkey"
+  ],
+  "Theater": [
+    "Fire",
+    "Stage"
+  ],
+  "Pancake": [
+    "Fire",
+    "Flat"
+  ],
+  "Zeus": [
+    "Fire",
+    "Olympus"
+  ],
+  "Curry": [
+    "Fire",
+    "Yogurt"
+  ],
+  "Campfire": [
+    "Fire",
+    "Wood"
+  ],
+  "Bread": [
+    "Fire",
+    "Flour"
+  ],
+  "Ketchup": [
+    "Fire",
+    "Vinegar"
+  ],
+  "Light": [
+    "Fire",
+    "Lamp"
+  ],
+  "Hell": [
+    "Fire",
+    "Damn"
+  ],
+  "Pyromania": [
+    "Fire",
+    "Narcissism"
+  ],
+  "Big Bang": [
+    "Fire",
+    "Universe"
+  ],
+  "Plantation": [
+    "Earth",
+    "Slavery"
+  ],
+  "Dracula": [
+    "Earth",
+    "Vampire"
+  ],
+  "Prawn": [
+    "Earth",
+    "Shrimp"
+  ],
+  "Taco": [
+    "Earth",
+    "Salsa"
+  ],
+  "Grass": [
+    "Earth",
+    "Green"
+  ],
+  "Fertilizer": [
+    "Earth",
+    "Ammonia"
+  ],
+  "Mouse": [
+    "Earth",
+    "Cheese"
+  ],
+  "Peking Duck": [
+    "Earth",
+    "Roast Duck"
+  ],
+  "Atlas": [
+    "Earth",
+    "Titan"
+  ],
+  "Egg": [
+    "Earth",
+    "Chicken"
+  ],
+  "Dog": [
+    "Earth",
+    "Wolf"
+  ],
+  "Umpire": [
+    "Earth",
+    "Referee"
+  ],
+  "Present": [
+    "Earth",
+    "Santa"
+  ],
+  "Landscape": [
+    "Earth",
+    "Photographer"
+  ],
+  "Farmer": [
+    "Earth",
+    "Human"
+  ],
+  "Worm": [
+    "Earth",
+    "Bait"
+  ],
+  "King": [
+    "Earth",
+    "Prince"
+  ],
+  "Quake": [
+    "Earth",
+    "Breakup"
+  ],
+  "Barley": [
+    "Earth",
+    "Beer"
+  ],
+  "Patrick": [
+    "Earth",
+    "SpongeBob"
+  ],
+  "Ugly Duckling": [
+    "Earth",
+    "Swan"
+  ],
+  "Carousel": [
+    "Earth",
+    "Ferris Wheel"
+  ],
+  "Wedding": [
+    "Earth",
+    "Tux"
+  ],
+  "Map": [
+    "Earth",
+    "Paper"
+  ],
+  "Paddy Field": [
+    "Earth",
+    "Rice Paddy"
+  ],
+  "Chocolate": [
+    "Earth",
+    "Candy"
+  ],
+  "Moss": [
+    "Earth",
+    "Lichen"
+  ],
+  "Cucumber": [
+    "Earth",
+    "Pickle"
+  ],
+  "Seahorse": [
+    "Earth",
+    "Sea Horse"
+  ],
+  "Groom": [
+    "Earth",
+    "Tuxedo"
+  ],
+  "Hermit": [
+    "Earth",
+    "Crab"
+  ],
+  "Trilobite": [
+    "Earth",
+    "Ammonoid"
+  ],
+  "Trash": [
+    "Earth",
+    "Pollution"
+  ],
+  "Pig": [
+    "Earth",
+    "Bacon"
+  ],
+  "Grand Canyon": [
+    "Earth",
+    "Canyon"
+  ],
+  "Mine": [
+    "Earth",
+    "Cave"
+  ],
+  "Safe": [
+    "Earth",
+    "Lock"
+  ],
+  "King Kong": [
+    "Earth",
+    "Monkey"
+  ],
+  "Gear": [
+    "Earth",
+    "Cog"
+  ],
+  "Ant": [
+    "Earth",
+    "Dragonfly"
+  ],
+  "Gnome": [
+    "Earth",
+    "Fairy"
+  ],
+  "Landfill": [
+    "Earth",
+    "Dustbin"
+  ],
+  "Damnation": [
+    "Earth",
+    "Damn"
+  ],
+  "Spiderweb": [
+    "Earth",
+    "Spider"
+  ],
+  "Bat": [
+    "Wind",
+    "Vampire"
+  ],
+  "Hot Air": [
+    "Wind",
+    "Hot"
+  ],
+  "Fire Storm": [
+    "Wind",
+    "Fire Breath"
+  ],
+  "Hot Air Balloon": [
+    "Wind",
+    "Boiling Frog"
+  ],
+  "Tempest": [
+    "Wind",
+    "Shrimp"
+  ],
+  "Gas": [
+    "Wind",
+    "Poison"
+  ],
+  "Sodium Chloride": [
+    "Wind",
+    "Sodium"
+  ],
+  "Flying Roast Duck": [
+    "Wind",
+    "Roast Duck"
+  ],
+  "Heart": [
+    "Wind",
+    "Love"
+  ],
+  "Flying Horse": [
+    "Wind",
+    "Pegasus"
+  ],
+  "Frisbee": [
+    "Wind",
+    "Flat Earth"
+  ],
+  "Hanglider": [
+    "Wind",
+    "Hangover"
+  ],
+  "Parasail": [
+    "Wind",
+    "Paramecium"
+  ],
+  "Gale": [
+    "Wind",
+    "Goose"
+  ],
+  "Brew": [
+    "Wind",
+    "Beer"
+  ],
+  "Spongebob": [
+    "Wind",
+    "SpongeBob"
+  ],
+  "Hourglass": [
+    "Wind",
+    "Time"
+  ],
+  "Air Monster": [
+    "Wind",
+    "Steam Monster"
+  ],
+  "Fruit Fly": [
+    "Wind",
+    "Fruit"
+  ],
+  "Pickle Rick": [
+    "Wind",
+    "Pickle"
+  ],
+  "Flying Pizza": [
+    "Wind",
+    "Pizza"
+  ],
+  "Spirit": [
+    "Wind",
+    "Prayer"
+  ],
+  "Message": [
+    "Wind",
+    "Smoke Signal"
+  ],
+  "Wizard": [
+    "Wind",
+    "Magic"
+  ],
+  "Baconator": [
+    "Wind",
+    "Bacon"
+  ],
+  "Aeolus": [
+    "Wind",
+    "Mountain Range"
+  ],
+  "Snowflake": [
+    "Wind",
+    "Crystal"
+  ],
+  "Jetstream": [
+    "Wind",
+    "Everest"
+  ],
+  "Monsoon": [
+    "Wind",
+    "Asia"
+  ],
+  "Monkey King": [
+    "Wind",
+    "Monkey"
+  ],
+  "Lion": [
+    "Wind",
+    "Voltron"
+  ],
+  "Heidi Klum": [
+    "Wind",
+    "Heidi"
+  ],
+  "Flying Starfish": [
+    "Wind",
+    "Starfish"
+  ],
+  "Rice Krispies": [
+    "Wind",
+    "Rice Pudding"
+  ],
+  "Finding Nemo": [
+    "Wind",
+    "Nemo"
+  ],
+  "Galaxy": [
+    "Wind",
+    "Universe"
+  ],
+  "Nymph": [
+    "Lake",
+    "Aphrodite"
+  ],
+  "Tutankhamun": [
+    "Lake",
+    "Mummy"
+  ],
+  "Limburger": [
+    "Lake",
+    "Cheese"
+  ],
+  "Dock": [
+    "Lake",
+    "Landing"
+  ],
+  "Judge": [
+    "Lake",
+    "Referee"
+  ],
+  "Michigan": [
+    "Lake",
+    "USA"
+  ],
+  "North Pole": [
+    "Lake",
+    "Santa"
+  ],
+  "Monet": [
+    "Lake",
+    "Art"
+  ],
+  "Pina Colada": [
+    "Lake",
+    "Pineapple"
+  ],
+  "Methane": [
+    "Lake",
+    "Fart"
+  ],
+  "Luau": [
+    "Lake",
+    "Hula"
+  ],
+  "Japan": [
+    "Lake",
+    "Sake"
+  ],
+  "Martini": [
+    "Lake",
+    "Vodka"
+  ],
+  "Leda": [
+    "Lake",
+    "Swan"
+  ],
+  "Postcard": [
+    "Lake",
+    "Photograph"
+  ],
+  "Aeon": [
+    "Lake",
+    "Time"
+  ],
+  "Potato Chip": [
+    "Lake",
+    "Potato"
+  ],
+  "Cottage": [
+    "Lake",
+    "Treehouse"
+  ],
+  "Hippocampus": [
+    "Lake",
+    "Sea Horse"
+  ],
+  "Pizza Hut": [
+    "Lake",
+    "Pizza"
+  ],
+  "Movie": [
+    "Lake",
+    "Popcorn"
+  ],
+  "Lord of the Rings": [
+    "Lake",
+    "Ring"
+  ],
+  "Fisherman": [
+    "Lake",
+    "Smoker"
+  ],
+  "Toxic": [
+    "Lake",
+    "Pollution"
+  ],
+  "Smoked Salmon": [
+    "Lake",
+    "Smoked Duck"
+  ],
+  "Caspian": [
+    "Lake",
+    "Asia"
+  ],
+  "Sea-Goat": [
+    "Lake",
+    "Goat"
+  ],
+  "Monkey Island": [
+    "Lake",
+    "Monkey"
+  ],
+  "Picture": [
+    "Lake",
+    "Snapshot"
+  ],
+  "Houseboat": [
+    "Lake",
+    "Chalet"
+  ],
+  "Swim": [
+    "Lake",
+    "Drunk"
+  ],
+  "Water Strider": [
+    "Lake",
+    "Spider"
+  ],
+  "Steam Breath": [
+    "Steam",
+    "Fire Breath"
+  ],
+  "Steam-osaurus": [
+    "Steam",
+    "Fire-osaurus"
+  ],
+  "Salsa Verde": [
+    "Steam",
+    "Salsa"
+  ],
+  "Steamkraken": [
+    "Steam",
+    "Firekraken"
+  ],
+  "Fondue": [
+    "Steam",
+    "Cheese"
+  ],
+  "Pepper Steak": [
+    "Steam",
+    "Pepper"
+  ],
+  "Steam Punk": [
+    "Steam",
+    "Photographer"
+  ],
+  "Engineer": [
+    "Steam",
+    "Human"
+  ],
+  "Steam Tornado": [
+    "Steam",
+    "Fire Tornado"
+  ],
+  "Scream": [
+    "Steam",
+    "Whisper"
+  ],
+  "Sake Bomb": [
+    "Steam",
+    "Sake"
+  ],
+  "Cocktail": [
+    "Steam",
+    "Vodka"
+  ],
+  "Clock": [
+    "Steam",
+    "Time"
+  ],
+  "Air": [
+    "Steam",
+    "Oxygen"
+  ],
+  "Pie": [
+    "Steam",
+    "Fruit"
+  ],
+  "Steam Boat": [
+    "Steam",
+    "Sea Horse"
+  ],
+  "Steam Dragon": [
+    "Steam",
+    "Green Dragon"
+  ],
+  "Thunderstorm": [
+    "Steam",
+    "Thunder"
+  ],
+  "Steam Detector": [
+    "Steam",
+    "Smoke Detector"
+  ],
+  "Geysers": [
+    "Steam",
+    "Canyon"
+  ],
+  "Teddy Bear": [
+    "Steam",
+    "Bear"
+  ],
+  "Chimpanzee": [
+    "Steam",
+    "Monkey"
+  ],
+  "Machu Picchu": [
+    "Steam",
+    "Inca"
+  ],
+  "Goblin": [
+    "Steam",
+    "Troll"
+  ],
+  "Nebula": [
+    "Steam",
+    "Star"
+  ],
+  "Steam Bunny": [
+    "Steam",
+    "Dust Bunny"
+  ],
+  "Steamed Rice Pudding": [
+    "Steam",
+    "Rice Pudding"
+  ],
+  "Garlic": [
+    "Plant",
+    "Vampire"
+  ],
+  "Medicine": [
+    "Plant",
+    "Cough"
+  ],
+  "Wheat": [
+    "Plant",
+    "Crop"
+  ],
+  "Space Plant": [
+    "Plant",
+    "Rocket"
+  ],
+  "Fireweed": [
+    "Plant",
+    "Firekraken"
+  ],
+  "Soda Pop": [
+    "Plant",
+    "Soda"
+  ],
+  "Cereal": [
+    "Plant",
+    "Toast"
+  ],
+  "Mold": [
+    "Plant",
+    "Bacteria"
+  ],
+  "Money Tree": [
+    "Plant",
+    "Treasure"
+  ],
+  "Solar Panel": [
+    "Plant",
+    "Battery"
+  ],
+  "Cannabis": [
+    "Plant",
+    "USA"
+  ],
+  "Flytrap": [
+    "Plant",
+    "Toad"
+  ],
+  "Poinsettia": [
+    "Plant",
+    "Santa"
+  ],
+  "Aspirin": [
+    "Plant",
+    "Hangover"
+  ],
+  "Secret": [
+    "Plant",
+    "Whisper"
+  ],
+  "Hops": [
+    "Plant",
+    "Beer"
+  ],
+  "Krabby Patty": [
+    "Plant",
+    "SpongeBob"
+  ],
+  "Absinthe": [
+    "Plant",
+    "Vodka"
+  ],
+  "Poop": [
+    "Plant",
+    "Seagull"
+  ],
+  "Book": [
+    "Plant",
+    "Paper"
+  ],
+  "Alien": [
+    "Plant",
+    "Space"
+  ],
+  "Chloroplast": [
+    "Plant",
+    "Cell"
+  ],
+  "Ethanol": [
+    "Plant",
+    "Biofuel"
+  ],
+  "Polly": [
+    "Plant",
+    "Parrot"
+  ],
+  "Lantern": [
+    "Plant",
+    "Firefly"
+  ],
+  "Radioactive": [
+    "Plant",
+    "Radio"
+  ],
+  "Crabgrass": [
+    "Plant",
+    "Crab"
+  ],
+  "Tomato": [
+    "Plant",
+    "Pizza"
+  ],
+  "Candy Cane": [
+    "Plant",
+    "Cotton Candy"
+  ],
+  "Fern": [
+    "Plant",
+    "Ammonoid"
+  ],
+  "Root": [
+    "Plant",
+    "Tunnel"
+  ],
+  "Snowboarder": [
+    "Plant",
+    "Snowboard"
+  ],
+  "Bamboo": [
+    "Plant",
+    "Asia"
+  ],
+  "Banana": [
+    "Plant",
+    "Monkey"
+  ],
+  "Christmas": [
+    "Plant",
+    "Lapland"
+  ],
+  "Coca": [
+    "Plant",
+    "Inca"
+  ],
+  "Sauerkraut": [
+    "Plant",
+    "Yogurt"
+  ],
+  "Family": [
+    "Plant",
+    "Relationship"
+  ],
+  "Pudding": [
+    "Plant",
+    "Rice Pudding"
+  ],
+  "Finnish Forest": [
+    "Plant",
+    "Finnish"
+  ],
+  "Cheeseburger": [
+    "Wave",
+    "Cheese"
+  ],
+  "Ciliate": [
+    "Wave",
+    "Paramecium"
+  ],
+  "Signal": [
+    "Wave",
+    "Radio"
+  ],
+  "Surge": [
+    "Wave",
+    "Mountain Dew"
+  ],
+  "Shrimp Cocktail": [
+    "Volcano",
+    "Shrimp"
+  ],
+  "Peking Man": [
+    "Volcano",
+    "Roast Duck"
+  ],
+  "Pepperoni": [
+    "Volcano",
+    "Pepper"
+  ],
+  "Power Plant": [
+    "Volcano",
+    "Battery"
+  ],
+  "Mordor": [
+    "Volcano",
+    "Castle"
+  ],
+  "Devil": [
+    "Volcano",
+    "Angel"
+  ],
+  "Prince of Persia": [
+    "Volcano",
+    "Prince"
+  ],
+  "SpongeBob SquarePants": [
+    "Volcano",
+    "SpongeBob"
+  ],
+  "Disaster": [
+    "Volcano",
+    "Ferris Wheel"
+  ],
+  "Cybertron": [
+    "Volcano",
+    "Cyborg"
+  ],
+  "French Fries": [
+    "Volcano",
+    "Potato"
+  ],
+  "Geothermal Power": [
+    "Volcano",
+    "Tidal Power"
+  ],
+  "Popocatepetl": [
+    "Volcano",
+    "Popcorn"
+  ],
+  "Vapecano": [
+    "Volcano",
+    "Vape"
+  ],
+  "Yellowstone": [
+    "Volcano",
+    "Mountain Range"
+  ],
+  "Gorilla": [
+    "Volcano",
+    "Monkey"
+  ],
+  "Mount Doom": [
+    "Volcano",
+    "Mount Rushmore"
+  ],
+  "Mount Olympus": [
+    "Volcano",
+    "Olympus"
+  ],
+  "Fertile": [
+    "Volcano",
+    "Compost"
+  ],
+  "Supernova": [
+    "Volcano",
+    "Star"
+  ],
+  "Rice Crispies": [
+    "Volcano",
+    "Rice Pudding"
+  ],
+  "Drunken": [
+    "Volcano",
+    "Drunk"
+  ],
+  "Ham": [
+    "Volcano",
+    "Sandwich"
+  ],
+  "Spider-Man": [
+    "Volcano",
+    "Spider"
+  ],
+  "Swiss": [
+    "Lava",
+    "Cheese"
+  ],
+  "Peach": [
+    "Lava",
+    "Fruit"
+  ],
+  "Heidi Ho": [
+    "Lava",
+    "Heidi"
+  ],
+  "Hephaestus": [
+    "Lava",
+    "Olympus"
+  ],
+  "Metal": [
+    "Lava",
+    "Rust"
+  ],
+  "Damnlava": [
+    "Lava",
+    "Damn"
+  ],
+  "Tarantula": [
+    "Lava",
+    "Spider"
+  ],
+  "Firework": [
+    "Smoke",
+    "Cannonball"
+  ],
+  "Octopus": [
+    "Smoke",
+    "Kraken"
+  ],
+  "Coke": [
+    "Smoke",
+    "Soda"
+  ],
+  "Led Zeppelin": [
+    "Smoke",
+    "Zeppelin"
+  ],
+  "Rumor": [
+    "Smoke",
+    "Whisper"
+  ],
+  "Smoking": [
+    "Smoke",
+    "Tux"
+  ],
+  "Prison": [
+    "Smoke",
+    "Cell"
+  ],
+  "undefined": [
+    "Smoke",
+    "Green Dragon"
+  ],
+  "Ozymandias": [
+    "Smoke",
+    "Statue"
+  ],
+  "Marlboro": [
+    "Smoke",
+    "Cowboy"
+  ],
+  "Crystal Ball": [
+    "Smoke",
+    "Crystal"
+  ],
+  "Smokey Bear": [
+    "Smoke",
+    "Bear"
+  ],
+  "Vulture": [
+    "Smoke",
+    "Eagle"
+  ],
+  "Smokefish": [
+    "Smoke",
+    "Starfish"
+  ],
+  "Smokefly": [
+    "Smoke",
+    "Dragonfly"
+  ],
+  "Burnt": [
+    "Smoke",
+    "Sandwich"
+  ],
+  "Tent": [
+    "Mountain",
+    "Cloth"
+  ],
+  "Cable Car": [
+    "Mountain",
+    "Gondola"
+  ],
+  "Commandments": [
+    "Mountain",
+    "Moses"
+  ],
+  "Mt. Rushmore": [
+    "Mountain",
+    "USA"
+  ],
+  "Sculpture": [
+    "Mountain",
+    "Art"
+  ],
+  "Mothership": [
+    "Mountain",
+    "Zeppelin"
+  ],
+  "Geese": [
+    "Mountain",
+    "Goose"
+  ],
+  "Oktoberfest": [
+    "Mountain",
+    "Beer"
+  ],
+  "MountainPants": [
+    "Mountain",
+    "SpongeBob"
+  ],
+  "Cygnus": [
+    "Mountain",
+    "Swan"
+  ],
+  "Roller Coaster": [
+    "Mountain",
+    "Ferris Wheel"
+  ],
+  "Sodom": [
+    "Mountain",
+    "Dead Sea"
+  ],
+  "Terraced Rice Paddy": [
+    "Mountain",
+    "Rice Paddy"
+  ],
+  "Climber": [
+    "Mountain",
+    "Oxygen"
+  ],
+  "Terminator": [
+    "Mountain",
+    "Cyborg"
+  ],
+  "Mt. Dew": [
+    "Mountain",
+    "Candy"
+  ],
+  "Captain": [
+    "Mountain",
+    "Sailor"
+  ],
+  "Jade Dragon": [
+    "Mountain",
+    "Green Dragon"
+  ],
+  "Monk": [
+    "Mountain",
+    "Prayer"
+  ],
+  "Clint Eastwood": [
+    "Mountain",
+    "Cowboy"
+  ],
+  "Peak": [
+    "Mountain",
+    "High"
+  ],
+  "Mt. Fuji": [
+    "Mountain",
+    "Smoked Duck"
+  ],
+  "Road": [
+    "Mountain",
+    "Bulldozer"
+  ],
+  "Mt. Everest": [
+    "Mountain",
+    "Everest"
+  ],
+  "Condor": [
+    "Mountain",
+    "Eagle"
+  ],
+  "Opera": [
+    "Mountain",
+    "Stage"
+  ],
+  "Hill": [
+    "Mountain",
+    "Flat"
+  ],
+  "Ski": [
+    "Mountain",
+    "Chalet"
+  ],
+  "Yogi": [
+    "Mountain",
+    "Yogurt"
+  ],
+  "Dwarf": [
+    "Mountain",
+    "Troll"
+  ],
+  "Sour": [
+    "Mountain",
+    "Vinegar"
+  ],
+  "Drunken Master": [
+    "Mountain",
+    "Drunk"
+  ],
+  "Matterhorn": [
+    "Mountain",
+    "Sandwich"
+  ],
+  "Rover": [
+    "Dust",
+    "Mars"
+  ],
+  "Soap": [
+    "Dust",
+    "Bubbles"
+  ],
+  "Dustbuster": [
+    "Dust",
+    "Duck"
+  ],
+  "Doll": [
+    "Dust",
+    "Cloth"
+  ],
+  "Plague": [
+    "Dust",
+    "Moses"
+  ],
+  "Egypt": [
+    "Dust",
+    "Slavery"
+  ],
+  "Sarcophagus": [
+    "Dust",
+    "Mummy"
+  ],
+  "Cookie": [
+    "Dust",
+    "Chef"
+  ],
+  "Fairy Tale": [
+    "Dust",
+    "Romance"
+  ],
+  "Tortilla": [
+    "Dust",
+    "Salsa"
+  ],
+  "Disease": [
+    "Dust",
+    "Poison"
+  ],
+  "Crumbs": [
+    "Dust",
+    "Toast"
+  ],
+  "Artist": [
+    "Dust",
+    "Art"
+  ],
+  "Sandcastle": [
+    "Dust",
+    "Castle"
+  ],
+  "Dustover": [
+    "Dust",
+    "Hangover"
+  ],
+  "Dust Devil": [
+    "Dust",
+    "Fire Tornado"
+  ],
+  "Cinderella": [
+    "Dust",
+    "Prince"
+  ],
+  "Hoop": [
+    "Dust",
+    "Hula"
+  ],
+  "Breakdust": [
+    "Dust",
+    "Breakup"
+  ],
+  "Pint": [
+    "Dust",
+    "Beer"
+  ],
+  "Coco": [
+    "Dust",
+    "Coconut Milk"
+  ],
+  "Oil Slick": [
+    "Dust",
+    "Oil Spill"
+  ],
+  "Dust Monster": [
+    "Dust",
+    "Steam Monster"
+  ],
+  "Hobbit": [
+    "Dust",
+    "Treehouse"
+  ],
+  "Dill": [
+    "Dust",
+    "Pickle"
+  ],
+  "Dusty Springfield": [
+    "Dust",
+    "Radio"
+  ],
+  "Dust Detector": [
+    "Dust",
+    "Smoke Detector"
+  ],
+  "Bullet": [
+    "Dust",
+    "Gunpowder"
+  ],
+  "Smoked Dust": [
+    "Dust",
+    "Smoked Duck"
+  ],
+  "Sandboard": [
+    "Dust",
+    "Snowboard"
+  ],
+  "Genghis Khan": [
+    "Dust",
+    "Asia"
+  ],
+  "Drama": [
+    "Dust",
+    "Stage"
+  ],
+  "President": [
+    "Dust",
+    "Mount Rushmore"
+  ],
+  "Floor": [
+    "Dust",
+    "Flat"
+  ],
+  "Pixie": [
+    "Dust",
+    "Fairy"
+  ],
+  "Cake": [
+    "Dust",
+    "Flour"
+  ],
+  "Dessert": [
+    "Dust",
+    "Rice Pudding"
+  ],
+  "Dump": [
+    "Dust",
+    "Trump"
+  ],
+  "Celebrity": [
+    "Dust",
+    "Narcissism"
+  ],
+  "Clownfish": [
+    "Dust",
+    "Nemo"
+  ],
+  "Cobweb": [
+    "Dust",
+    "Spider"
+  ],
+  "Cyclone": [
+    "Tornado",
+    "Swamp"
+  ],
+  "Destruction": [
+    "Tornado",
+    "Tsunami"
+  ],
+  "Sharknado": [
+    "Tornado",
+    "Fish"
+  ],
+  "Shatter": [
+    "Tornado",
+    "Glass"
+  ],
+  "Teacup": [
+    "Tornado",
+    "Tea"
+  ],
+  "Titanado": [
+    "Tornado",
+    "Titanic"
+  ],
+  "Wreck": [
+    "Tornado",
+    "Train"
+  ],
+  "Funnel Cake": [
+    "Tornado",
+    "Venus Flytrap"
+  ],
+  "Fungi": [
+    "Tornado",
+    "Mushroom"
+  ],
+  "Whirlpool": [
+    "Tornado",
+    "Pond"
+  ],
+  "Tesla": [
+    "Tornado",
+    "Electricity"
+  ],
+  "Shark": [
+    "Tornado",
+    "Sushi"
+  ],
+  "Solar Flare": [
+    "Tornado",
+    "Sun"
+  ],
+  "Fire Whirl": [
+    "Tornado",
+    "Fire Trap"
+  ],
+  "T-Rex": [
+    "Tornado",
+    "Dinosaur"
+  ],
+  "Lunar Eclipse": [
+    "Tornado",
+    "Moon"
+  ],
+  "Tornado Fish": [
+    "Tornado",
+    "Flying Fish"
+  ],
+  "Broken Window": [
+    "Tornado",
+    "Window"
+  ],
+  "Kaleidoscope": [
+    "Tornado",
+    "Mirror"
+  ],
+  "Snowstorm": [
+    "Tornado",
+    "Snowman"
+  ],
+  "Flying Cow": [
+    "Tornado",
+    "Carnivorous Plant"
+  ],
+  "DNA": [
+    "Tornado",
+    "Microscope"
+  ],
+  "Rubberband": [
+    "Tornado",
+    "Rubber"
+  ],
+  "Meteor Shower": [
+    "Tornado",
+    "Meteor"
+  ],
+  "Tornadobot": [
+    "Tornado",
+    "Robot"
+  ],
+  "Twister": [
+    "Tornado",
+    "Camera"
+  ],
+  "Poltergeist": [
+    "Tornado",
+    "Ghost"
+  ],
+  "Taz": [
+    "Tornado",
+    "Penguin"
+  ],
+  "Tornadate": [
+    "Tornado",
+    "Date"
+  ],
+  "Ice Tornado": [
+    "Tornado",
+    "Iceland"
+  ],
+  "Whirlwind": [
+    "Tornado",
+    "Echo"
+  ],
+  "Asteroid": [
+    "Tornado",
+    "Meteorite"
+  ],
+  "Chaos": [
+    "Tornado",
+    "Freedom"
+  ],
+  "Love Storm": [
+    "Tornado",
+    "Aphrodite"
+  ],
+  "Food Truck": [
+    "Tornado",
+    "Chef"
+  ],
+  "Fire-osaurus Rex": [
+    "Tornado",
+    "Fire-osaurus"
+  ],
+  "Tempura": [
+    "Tornado",
+    "Shrimp"
+  ],
+  "Salsa Cyclone": [
+    "Tornado",
+    "Salsa"
+  ],
+  "Tornadon": [
+    "Tornado",
+    "Ammonia"
+  ],
+  "Flying Cheese": [
+    "Tornado",
+    "Cheese"
+  ],
+  "Infection": [
+    "Tornado",
+    "Bacteria"
+  ],
+  "Storm Chaser": [
+    "Tornado",
+    "Photographer"
+  ],
+  "Picasso": [
+    "Tornado",
+    "Art"
+  ],
+  "Pineapple Express": [
+    "Tornado",
+    "Pineapple"
+  ],
+  "Hangar": [
+    "Tornado",
+    "Hangover"
+  ],
+  "Tornagoose": [
+    "Tornado",
+    "Goose"
+  ],
+  "Party": [
+    "Tornado",
+    "Beer"
+  ],
+  "Coconut Milkshake": [
+    "Tornado",
+    "Coconut Milk"
+  ],
+  "Confetti": [
+    "Tornado",
+    "Paper"
+  ],
+  "Tornado Monster": [
+    "Tornado",
+    "Steam Monster"
+  ],
+  "Fruit Salad": [
+    "Tornado",
+    "Fruit"
+  ],
+  "Tornado Fly Trap": [
+    "Tornado",
+    "Venus Fly Trap"
+  ],
+  "Rosebud": [
+    "Tornado",
+    "Rose"
+  ],
+  "Static": [
+    "Tornado",
+    "Radio"
+  ],
+  "Calzone": [
+    "Tornado",
+    "Pizza"
+  ],
+  "Candy Floss": [
+    "Tornado",
+    "Cotton Candy"
+  ],
+  "Popcorn Storm": [
+    "Tornado",
+    "Popcorn"
+  ],
+  "Statue of Liberty": [
+    "Tornado",
+    "Liberty"
+  ],
+  "Tornado Siren": [
+    "Tornado",
+    "Smoke Detector"
+  ],
+  "TNT": [
+    "Tornado",
+    "Gunpowder"
+  ],
+  "Tornado Warning": [
+    "Tornado",
+    "Smoke Signal"
+  ],
+  "Mountain Tornado": [
+    "Tornado",
+    "Mountain Dew"
+  ],
+  "Typhoon": [
+    "Tornado",
+    "Asia"
+  ],
+  "Mount Trashmore": [
+    "Tornado",
+    "Mount Rushmore"
+  ],
+  "Froyo": [
+    "Tornado",
+    "Yogurt"
+  ],
+  "Vortex": [
+    "Tornado",
+    "Starfish"
+  ],
+  "Tinkerbell": [
+    "Tornado",
+    "Fairy"
+  ],
+  "Tornadroll": [
+    "Tornado",
+    "Troll"
+  ],
+  "Tea Cup": [
+    "Tornado",
+    "Tea Bag"
+  ],
+  "Pollock": [
+    "Tornado",
+    "Paint"
+  ],
+  "Damnado": [
+    "Tornado",
+    "Damn"
+  ],
+  "Frat Party": [
+    "Tornado",
+    "Drunk"
+  ],
+  "Slick": [
+    "Ocean",
+    "Oil"
+  ],
+  "Turtle": [
+    "Ocean",
+    "Tire"
+  ],
+  "Steampunk Pirate": [
+    "Ocean",
+    "Steampunk"
+  ],
+  "Suez": [
+    "Ocean",
+    "Canal"
+  ],
+  "Rum": [
+    "Ocean",
+    "Alcohol"
+  ],
+  "Boom": [
+    "Ocean",
+    "Fireworks"
+  ],
+  "Atlantic": [
+    "Ocean",
+    "America"
+  ],
+  "Sasquatch": [
+    "Ocean",
+    "Yeti"
+  ],
+  "Depth": [
+    "Ocean",
+    "Pressure"
+  ],
+  "Sea Milk": [
+    "Ocean",
+    "Milk"
+  ],
+  "Phlegm": [
+    "Ocean",
+    "Cough"
+  ],
+  "Summer": [
+    "Ocean",
+    "Hot"
+  ],
+  "Tropic": [
+    "Ocean",
+    "Warmth"
+  ],
+  "Dead Fish": [
+    "Ocean",
+    "Poison"
+  ],
+  "Seawolf": [
+    "Ocean",
+    "Wolf"
+  ],
+  "Cruise Ship": [
+    "Ocean",
+    "Ferris Wheel"
+  ],
+  "Bath": [
+    "Ocean",
+    "Shower"
+  ],
+  "Horizon": [
+    "Ocean",
+    "Sky"
+  ],
+  "Mountain Dew Ocean Blast": [
+    "Ocean",
+    "Mountain Dew"
+  ],
+  "Sea Goat": [
+    "Ocean",
+    "Goat"
+  ],
+  "Sea Star": [
+    "Ocean",
+    "Star"
+  ],
+  "Sea Monkey": [
+    "Ocean",
+    "Dust Bunny"
+  ],
+  "Rainbow Trout": [
+    "Cloud",
+    "Fish"
+  ],
+  "Cloud Trap": [
+    "Cloud",
+    "Venus Flytrap"
+  ],
+  "Flying Car": [
+    "Cloud",
+    "Car"
+  ],
+  "Ink": [
+    "Water",
+    "Squid"
+  ],
+  "Snail": [
+    "Water",
+    "Shell"
+  ],
+  "Ice Age": [
+    "Water",
+    "Extinction"
+  ],
+  "Lemonade": [
+    "Water",
+    "Juice"
+  ],
+  "Alligator": [
+    "Water",
+    "Crocodile"
+  ],
+  "Syrup": [
+    "Water",
+    "Sugar"
+  ],
+  "Dead Cowboy": [
+    "Water",
+    "Drowned Cowboy"
+  ],
+  "Ice Bear": [
+    "Water",
+    "Polar Bear"
+  ],
+  "Oyster": [
+    "Water",
+    "Pearl"
+  ],
+  "Drowned": [
+    "Water",
+    "Drowner"
+  ],
+  "Fluoride": [
+    "Water",
+    "Flu"
+  ],
+  "Pool": [
+    "Water",
+    "Chlorine"
+  ],
+  "Steam Duck": [
+    "Water",
+    "Fire Duck"
+  ],
+  "Coffee": [
+    "Water",
+    "Burnt Toast"
+  ],
+  "Pandora": [
+    "Water",
+    "Prometheus"
+  ],
+  "Wet Paint": [
+    "Water",
+    "Painting"
+  ],
+  "S’more": [
+    "Water",
+    "Marshmallow"
+  ],
+  "Sulfuric Acid": [
+    "Water",
+    "Brimstone"
+  ],
+  "Red Sea": [
+    "Water",
+    "Red Dragon"
+  ],
+  "Wax": [
+    "Water",
+    "Candle"
+  ],
+  "Longboat": [
+    "Water",
+    "Viking"
+  ],
+  "Naiad": [
+    "Water",
+    "Satyr"
+  ],
+  "Hot Tea": [
+    "Water",
+    "Hot Monkey"
+  ],
+  "Rat": [
+    "Water",
+    "Mouse"
+  ],
+  "Newfie": [
+    "Water",
+    "Dog"
+  ],
+  "Gift": [
+    "Water",
+    "Present"
+  ],
+  "Bride": [
+    "Water",
+    "Wedding"
+  ],
+  "Hot Chocolate": [
+    "Water",
+    "Chocolate"
+  ],
+  "Piggyback": [
+    "Water",
+    "Pig"
+  ],
+  "Well": [
+    "Water",
+    "Mine"
+  ],
+  "Baptism": [
+    "Water",
+    "Damnation"
+  ],
+  "Soggy Pizza": [
+    "Water",
+    "Flying Pizza"
+  ],
+  "Finding Dory": [
+    "Water",
+    "Finding Nemo"
+  ],
+  "Milky Way": [
+    "Water",
+    "Galaxy"
+  ],
+  "Great Lakes": [
+    "Water",
+    "Michigan"
+  ],
+  "Tiki": [
+    "Water",
+    "Luau"
+  ],
+  "Dirty Martini": [
+    "Water",
+    "Martini"
+  ],
+  "Mail": [
+    "Water",
+    "Postcard"
+  ],
+  "Lox": [
+    "Water",
+    "Smoked Salmon"
+  ],
+  "Sea-goat": [
+    "Water",
+    "Sea-Goat"
+  ],
+  "Monkey Island 2": [
+    "Water",
+    "Monkey Island"
+  ],
+  "Pepper Steak Soup": [
+    "Water",
+    "Pepper Steak"
+  ],
+  "Punch": [
+    "Water",
+    "Cocktail"
+  ],
+  "Potion": [
+    "Water",
+    "Medicine"
+  ],
+  "Soda Water": [
+    "Water",
+    "Soda Pop"
+  ],
+  "Pill": [
+    "Water",
+    "Aspirin"
+  ],
+  "Green Fairy": [
+    "Water",
+    "Absinthe"
+  ],
+  "Panda": [
+    "Water",
+    "Bamboo"
+  ],
+  "Banana Boat": [
+    "Water",
+    "Banana"
+  ],
+  "Swimming": [
+    "Water",
+    "Family"
+  ],
+  "Jelly": [
+    "Water",
+    "Pudding"
+  ],
+  "Soggy Cheeseburger": [
+    "Water",
+    "Cheeseburger"
+  ],
+  "Gondor": [
+    "Water",
+    "Mordor"
+  ],
+  "Prince Of Water": [
+    "Water",
+    "Prince of Persia"
+  ],
+  "Aquatron": [
+    "Water",
+    "Cybertron"
+  ],
+  "Soggy Fries": [
+    "Water",
+    "French Fries"
+  ],
+  "Spider-man": [
+    "Water",
+    "Spider-Man"
+  ],
+  "Peach Juice": [
+    "Water",
+    "Peach"
+  ],
+  "Steel": [
+    "Water",
+    "Metal"
+  ],
+  "Scorpion": [
+    "Water",
+    "Tarantula"
+  ],
+  "Stairway to Heaven": [
+    "Water",
+    "Led Zeppelin"
+  ],
+  "Gossip": [
+    "Water",
+    "Rumor"
+  ],
+  "Smokey the Bear": [
+    "Water",
+    "Smokey Bear"
+  ],
+  "Ferry": [
+    "Water",
+    "Cable Car"
+  ],
+  "Water Slide": [
+    "Water",
+    "Roller Coaster"
+  ],
+  "Gomorrah": [
+    "Water",
+    "Sodom"
+  ],
+  "T-1000": [
+    "Water",
+    "Terminator"
+  ],
+  "Jade Fountain": [
+    "Water",
+    "Jade Dragon"
+  ],
+  "Dirty Harry": [
+    "Water",
+    "Clint Eastwood"
+  ],
+  "Soprano": [
+    "Water",
+    "Opera"
+  ],
+  "Skier": [
+    "Water",
+    "Ski"
+  ],
+  "Wetvac": [
+    "Water",
+    "Dustbuster"
+  ],
+  "Barbie": [
+    "Water",
+    "Doll"
+  ],
+  "Cholera": [
+    "Water",
+    "Plague"
+  ],
+  "Painter": [
+    "Water",
+    "Artist"
+  ],
+  "Pumpkin": [
+    "Water",
+    "Cinderella"
+  ],
+  "Smeagol": [
+    "Water",
+    "Hobbit"
+  ],
+  "Dusty Springwater": [
+    "Water",
+    "Dusty Springfield"
+  ],
+  "Mongolia": [
+    "Water",
+    "Genghis Khan"
+  ],
+  "Paparazzi": [
+    "Water",
+    "Celebrity"
+  ],
+  "Slingshot": [
+    "Water",
+    "Rubberband"
+  ],
+  "Tasmanian Devil": [
+    "Water",
+    "Taz"
+  ],
+  "Steam-osaurus Rex": [
+    "Water",
+    "Fire-osaurus Rex"
+  ],
+  "Pineapple Juice": [
+    "Water",
+    "Pineapple Express"
+  ],
+  "New York": [
+    "Water",
+    "Statue of Liberty"
+  ],
+  "Keg": [
+    "Water",
+    "Frat Party"
+  ],
+  "Tortoise": [
+    "Water",
+    "Turtle"
+  ],
+  "Grog": [
+    "Water",
+    "Rum"
+  ],
+  "Snot": [
+    "Water",
+    "Phlegm"
+  ],
+  "Capricorn": [
+    "Water",
+    "Sea Goat"
+  ],
+  "Tattoo": [
+    "Water",
+    "Ink"
+  ],
+  "Slug": [
+    "Water",
+    "Snail"
+  ],
+  "Maple": [
+    "Water",
+    "Syrup"
+  ],
+  "Toothpaste": [
+    "Water",
+    "Fluoride"
+  ],
+  "Box": [
+    "Water",
+    "Pandora"
+  ],
+  "Ice Tea": [
+    "Water",
+    "Hot Tea"
+  ],
+  "Pump": [
+    "Water",
+    "Well"
+  ],
+  "Clean Martini": [
+    "Water",
+    "Dirty Martini"
+  ],
+  "Post": [
+    "Water",
+    "Mail"
+  ],
+  "Monkey Island 3": [
+    "Water",
+    "Monkey Island 2"
+  ],
+  "Elixir": [
+    "Water",
+    "Potion"
+  ],
+  "Pandacub": [
+    "Water",
+    "Panda"
+  ],
+  "Jellyfish": [
+    "Water",
+    "Jelly"
+  ],
+  "Aquarius": [
+    "Water",
+    "Scorpion"
+  ],
+  "Waterway To Heaven": [
+    "Water",
+    "Stairway to Heaven"
+  ],
+  "Fun": [
+    "Water",
+    "Water Slide"
+  ],
+  "T-10000": [
+    "Water",
+    "T-1000"
+  ],
+  "Jade": [
+    "Water",
+    "Jade Fountain"
+  ],
+  "Wet Harry": [
+    "Water",
+    "Dirty Harry"
+  ],
+  "Dryvac": [
+    "Water",
+    "Wetvac"
+  ],
+  "Epidemic": [
+    "Water",
+    "Cholera"
+  ],
+  "Gollum": [
+    "Water",
+    "Smeagol"
+  ],
+  "Water Balloon": [
+    "Water",
+    "Slingshot"
+  ],
+  "New Jersey": [
+    "Water",
+    "New York"
+  ],
+  "Dry": [
+    "Fire",
+    "Wet"
+  ],
+  "Firewall": [
+    "Fire",
+    "Parting"
+  ],
+  "Sparks": [
+    "Fire",
+    "Divorce"
+  ],
+  "Fever": [
+    "Fire",
+    "Sick"
+  ],
+  "Calamari": [
+    "Fire",
+    "Squid"
+  ],
+  "Fire Hoop": [
+    "Fire",
+    "Hula Hoop"
+  ],
+  "Ryan": [
+    "Fire",
+    "Gosling"
+  ],
+  "Boil": [
+    "Fire",
+    "Lobster"
+  ],
+  "Fire Dragon": [
+    "Fire",
+    "Sea Dragon"
+  ],
+  "Burnt Cowboy": [
+    "Fire",
+    "Drowned Cowboy"
+  ],
+  "Spaghetti": [
+    "Fire",
+    "Pasta"
+  ],
+  "Sword": [
+    "Fire",
+    "Iron"
+  ],
+  "Bleach": [
+    "Fire",
+    "Chlorine"
+  ],
+  "Flamethrower": [
+    "Fire",
+    "Tank"
+  ],
+  "Sapphire": [
+    "Fire",
+    "Ruby"
+  ],
+  "Dragon Fire": [
+    "Fire",
+    "Red Dragon"
+  ],
+  "Sausage": [
+    "Fire",
+    "SOS"
+  ],
+  "Thor": [
+    "Fire",
+    "Viking"
+  ],
+  "Monkey on Fire": [
+    "Fire",
+    "Hot Monkey"
+  ],
+  "Crepes": [
+    "Fire",
+    "Pancake"
+  ],
+  "Bonfire": [
+    "Fire",
+    "Campfire"
+  ],
+  "Burrito": [
+    "Fire",
+    "Taco"
+  ],
+  "Omelette": [
+    "Fire",
+    "Egg"
+  ],
+  "Hot Dog": [
+    "Fire",
+    "Dog"
+  ],
+  "Strike": [
+    "Fire",
+    "Umpire"
+  ],
+  "Fireproof": [
+    "Fire",
+    "Safe"
+  ],
+  "Fire Balloon": [
+    "Fire",
+    "Hot Air Balloon"
+  ],
+  "Disc": [
+    "Fire",
+    "Frisbee"
+  ],
+  "Sun Wukong": [
+    "Fire",
+    "Monkey King"
+  ],
+  "Stink": [
+    "Fire",
+    "Limburger"
+  ],
+  "Trial": [
+    "Fire",
+    "Judge"
+  ],
+  "Detroit": [
+    "Fire",
+    "Michigan"
+  ],
+  "Flamingo": [
+    "Fire",
+    "Pina Colada"
+  ],
+  "Godzilla": [
+    "Fire",
+    "Japan"
+  ],
+  "Flambé": [
+    "Fire",
+    "Martini"
+  ],
+  "Fire Chip": [
+    "Fire",
+    "Potato Chip"
+  ],
+  "Caspian Sea": [
+    "Fire",
+    "Caspian"
+  ],
+  "Sagittarius": [
+    "Fire",
+    "Sea-Goat"
+  ],
+  "Fireboat": [
+    "Fire",
+    "Houseboat"
+  ],
+  "Firelord": [
+    "Fire",
+    "Water Strider"
+  ],
+  "Spicy Steak": [
+    "Fire",
+    "Pepper Steak"
+  ],
+  "Steam Ship": [
+    "Fire",
+    "Steam Boat"
+  ],
+  "Fire Alarm": [
+    "Fire",
+    "Steam Detector"
+  ],
+  "Burning Teddy Bear": [
+    "Fire",
+    "Teddy Bear"
+  ],
+  "Rabbit": [
+    "Fire",
+    "Steam Bunny"
+  ],
+  "Bank": [
+    "Fire",
+    "Money Tree"
+  ],
+  "Burnt Patty": [
+    "Fire",
+    "Krabby Patty"
+  ],
+  "UFO": [
+    "Fire",
+    "Alien"
+  ],
+  "Moonshine": [
+    "Fire",
+    "Ethanol"
+  ],
+  "Nuclear": [
+    "Fire",
+    "Radioactive"
+  ],
+  "Radish": [
+    "Fire",
+    "Root"
+  ],
+  "Banana Bread": [
+    "Fire",
+    "Banana"
+  ],
+  "Burger": [
+    "Fire",
+    "Cheeseburger"
+  ],
+  "Sauron": [
+    "Fire",
+    "Mordor"
+  ],
+  "Jaffar": [
+    "Fire",
+    "Prince of Persia"
+  ],
+  "Optimus Prime": [
+    "Fire",
+    "Cybertron"
+  ],
+  "McDonalds": [
+    "Fire",
+    "French Fries"
+  ],
+  "Cobbler": [
+    "Fire",
+    "Peach"
+  ],
+  "Jailbreak": [
+    "Fire",
+    "Prison"
+  ],
+  "Firetron": [
+    "Fire",
+    "Terminator"
+  ],
+  "Traffic": [
+    "Fire",
+    "Road"
+  ],
+  "Phantom": [
+    "Fire",
+    "Opera"
+  ],
+  "Smaug": [
+    "Fire",
+    "Dwarf"
+  ],
+  "Lemon": [
+    "Fire",
+    "Sour"
+  ],
+  "Burnt Cookie": [
+    "Fire",
+    "Cookie"
+  ],
+  "Quesadilla": [
+    "Fire",
+    "Tortilla"
+  ],
+  "Gun": [
+    "Fire",
+    "Bullet"
+  ],
+  "Sandboarder": [
+    "Fire",
+    "Sandboard"
+  ],
+  "Fire Khan": [
+    "Fire",
+    "Genghis Khan"
+  ],
+  "Tragedy": [
+    "Fire",
+    "Drama"
+  ],
+  "Fame": [
+    "Fire",
+    "Celebrity"
+  ],
+  "Firefish": [
+    "Fire",
+    "Clownfish"
+  ],
+  "Carnival": [
+    "Fire",
+    "Funnel Cake"
+  ],
+  "Firebot": [
+    "Fire",
+    "Tornadobot"
+  ],
+  "Taco Truck": [
+    "Fire",
+    "Food Truck"
+  ],
+  "Torch": [
+    "Fire",
+    "Statue of Liberty"
+  ],
+  "Firey Froyo": [
+    "Fire",
+    "Froyo"
+  ],
+  "Ninja": [
+    "Fire",
+    "Turtle"
+  ],
+  "Bigfoot": [
+    "Fire",
+    "Sasquatch"
+  ],
+  "Fire Milk": [
+    "Fire",
+    "Sea Milk"
+  ],
+  "Fish Stick": [
+    "Fire",
+    "Dead Fish"
+  ],
+  "Fireade": [
+    "Fire",
+    "Lemonade"
+  ],
+  "BBQ": [
+    "Fire",
+    "Dead Cowboy"
+  ],
+  "Hot Tub": [
+    "Fire",
+    "Pool"
+  ],
+  "Ratatouille": [
+    "Fire",
+    "Rat"
+  ],
+  "Firefie": [
+    "Fire",
+    "Newfie"
+  ],
+  "Holy Spirit": [
+    "Fire",
+    "Baptism"
+  ],
+  "Burning Water": [
+    "Fire",
+    "Great Lakes"
+  ],
+  "Letter": [
+    "Fire",
+    "Mail"
+  ],
+  "Bagel": [
+    "Fire",
+    "Lox"
+  ],
+  "LeChuck": [
+    "Fire",
+    "Monkey Island 2"
+  ],
+  "Pandamonium": [
+    "Fire",
+    "Panda"
+  ],
+  "Banana Split": [
+    "Fire",
+    "Banana Boat"
+  ],
+  "Boiling": [
+    "Fire",
+    "Swimming"
+  ],
+  "Prince Of Fire": [
+    "Fire",
+    "Prince Of Water"
+  ],
+  "Burnt Fries": [
+    "Fire",
+    "Soggy Fries"
+  ],
+  "Dryer": [
+    "Fire",
+    "Wetvac"
+  ],
+  "Jack-o-Lantern": [
+    "Fire",
+    "Pumpkin"
+  ],
+  "Fire Devil": [
+    "Fire",
+    "Tasmanian Devil"
+  ],
+  "9/11": [
+    "Fire",
+    "New York"
+  ],
+  "Photo": [
+    "Earth",
+    "Snap"
+  ],
+  "Caterpillar": [
+    "Earth",
+    "Butterfly"
+  ],
+  "Hole": [
+    "Earth",
+    "Black Hole"
+  ],
+  "Tectonic": [
+    "Earth",
+    "Pacific"
+  ],
+  "Cerberus": [
+    "Earth",
+    "Hellhound"
+  ],
+  "Country": [
+    "Earth",
+    "Flag"
+  ],
+  "Berserker": [
+    "Earth",
+    "Viking"
+  ],
+  "Great Wall": [
+    "Earth",
+    "China"
+  ],
+  "Pan": [
+    "Earth",
+    "Satyr"
+  ],
+  "India": [
+    "Earth",
+    "Curry"
+  ],
+  "Charcoal": [
+    "Earth",
+    "Campfire"
+  ],
+  "Lawn": [
+    "Earth",
+    "Grass"
+  ],
+  "Hamster": [
+    "Earth",
+    "Mouse"
+  ],
+  "Globe": [
+    "Earth",
+    "Atlas"
+  ],
+  "Bone": [
+    "Earth",
+    "Dog"
+  ],
+  "Earthworm": [
+    "Earth",
+    "Worm"
+  ],
+  "Kingdom": [
+    "Earth",
+    "King"
+  ],
+  "Cocoa": [
+    "Earth",
+    "Chocolate"
+  ],
+  "Pork": [
+    "Earth",
+    "Pig"
+  ],
+  "Vault": [
+    "Earth",
+    "Safe"
+  ],
+  "Skyscraper": [
+    "Earth",
+    "King Kong"
+  ],
+  "Colony": [
+    "Earth",
+    "Ant"
+  ],
+  "Parachute": [
+    "Earth",
+    "Hanglider"
+  ],
+  "Paratrooper": [
+    "Earth",
+    "Parasail"
+  ],
+  "Pizza Planet": [
+    "Earth",
+    "Flying Pizza"
+  ],
+  "Gryphon": [
+    "Earth",
+    "Lion"
+  ],
+  "Supermodel": [
+    "Earth",
+    "Heidi Klum"
+  ],
+  "Pixar": [
+    "Earth",
+    "Finding Nemo"
+  ],
+  "Court": [
+    "Earth",
+    "Judge"
+  ],
+  "Mudslide": [
+    "Earth",
+    "Pina Colada"
+  ],
+  "Tokyo": [
+    "Earth",
+    "Japan"
+  ],
+  "Dirtini": [
+    "Earth",
+    "Martini"
+  ],
+  "Pringle": [
+    "Earth",
+    "Potato Chip"
+  ],
+  "Film": [
+    "Earth",
+    "Movie"
+  ],
+  "Waste": [
+    "Earth",
+    "Toxic"
+  ],
+  "Guacamole": [
+    "Earth",
+    "Salsa Verde"
+  ],
+  "Wormwood": [
+    "Earth",
+    "Absinthe"
+  ],
+  "Library": [
+    "Earth",
+    "Book"
+  ],
+  "Mutant": [
+    "Earth",
+    "Radioactive"
+  ],
+  "Gingerbread Man": [
+    "Earth",
+    "Candy Cane"
+  ],
+  "Cocaine": [
+    "Earth",
+    "Coca"
+  ],
+  "Kimchi": [
+    "Earth",
+    "Sauerkraut"
+  ],
+  "Moose": [
+    "Earth",
+    "Finnish Forest"
+  ],
+  "Cow": [
+    "Earth",
+    "Cheeseburger"
+  ],
+  "Slime": [
+    "Earth",
+    "Ciliate"
+  ],
+  "Satellite": [
+    "Earth",
+    "Signal"
+  ],
+  "Middle Earth": [
+    "Earth",
+    "Mordor"
+  ],
+  "Transformer": [
+    "Earth",
+    "Cybertron"
+  ],
+  "Rice Krispie Treat": [
+    "Earth",
+    "Rice Crispies"
+  ],
+  "Peach Pit": [
+    "Earth",
+    "Peach"
+  ],
+  "Camp": [
+    "Earth",
+    "Tent"
+  ],
+  "San Francisco": [
+    "Earth",
+    "Cable Car"
+  ],
+  "Lincoln": [
+    "Earth",
+    "Mt. Rushmore"
+  ],
+  "Theme Park": [
+    "Earth",
+    "Roller Coaster"
+  ],
+  "Eartha": [
+    "Earth",
+    "Opera"
+  ],
+  "Guru": [
+    "Earth",
+    "Yogi"
+  ],
+  "Shire": [
+    "Earth",
+    "Hobbit"
+  ],
+  "Bouncy Ball": [
+    "Earth",
+    "Rubberband"
+  ],
+  "Tasmania": [
+    "Earth",
+    "Taz"
+  ],
+  "Jungle": [
+    "Earth",
+    "Tropic"
+  ],
+  "Seal": [
+    "Earth",
+    "Seawolf"
+  ],
+  "Trap": [
+    "Earth",
+    "Cloud Trap"
+  ],
+  "Fluorite": [
+    "Earth",
+    "Fluoride"
+  ],
+  "Coffee Bean": [
+    "Earth",
+    "Coffee"
+  ],
+  "King Of Water": [
+    "Earth",
+    "Prince Of Water"
+  ],
+  "Garden Of Eden": [
+    "Earth",
+    "Stairway to Heaven"
+  ],
+  "Empire State Building": [
+    "Earth",
+    "New York"
+  ],
+  "Conch": [
+    "Wind",
+    "Shell"
+  ],
+  "Flying Soggy Toast": [
+    "Wind",
+    "Soggy Toast"
+  ],
+  "Apple Pie": [
+    "Wind",
+    "Apple"
+  ],
+  "Weather": [
+    "Wind",
+    "Lobster"
+  ],
+  "Duck Tape": [
+    "Wind",
+    "Duck Soup"
+  ],
+  "Pearl Diver": [
+    "Wind",
+    "Pearl"
+  ],
+  "Flying Spaghetti Monster": [
+    "Wind",
+    "Pasta"
+  ],
+  "Fire Bird": [
+    "Wind",
+    "Fire Duck"
+  ],
+  "Valkyrie": [
+    "Wind",
+    "Viking"
+  ],
+  "Flapjack": [
+    "Wind",
+    "Pancake"
+  ],
+  "Whiskey": [
+    "Wind",
+    "Barley"
+  ],
+  "Compass": [
+    "Wind",
+    "Map"
+  ],
+  "Flying Pig": [
+    "Wind",
+    "Pig"
+  ],
+  "Antelope": [
+    "Wind",
+    "Ant"
+  ],
+  "Simba": [
+    "Wind",
+    "Lion"
+  ],
+  "Snap, Crackle, Pop": [
+    "Wind",
+    "Rice Krispies"
+  ],
+  "Solar System": [
+    "Wind",
+    "Galaxy"
+  ],
+  "Flying Potato Chip": [
+    "Wind",
+    "Potato Chip"
+  ],
+  "Cinema": [
+    "Wind",
+    "Movie"
+  ],
+  "Gandalf": [
+    "Wind",
+    "Lord of the Rings"
+  ],
+  "Piece of Cake": [
+    "Wind",
+    "Pie"
+  ],
+  "Air Dragon": [
+    "Wind",
+    "Steam Dragon"
+  ],
+  "Clouds": [
+    "Wind",
+    "Geysers"
+  ],
+  "Space Weed": [
+    "Wind",
+    "Space Plant"
+  ],
+  "Flying Krabby Patty": [
+    "Wind",
+    "Krabby Patty"
+  ],
+  "Radiation": [
+    "Wind",
+    "Radioactive"
+  ],
+  "Flute": [
+    "Wind",
+    "Bamboo"
+  ],
+  "Blowjob": [
+    "Wind",
+    "Banana"
+  ],
+  "Flying Cheeseburger": [
+    "Wind",
+    "Cheeseburger"
+  ],
+  "Prince Of Persia": [
+    "Wind",
+    "Prince of Persia"
+  ],
+  "Spongebob Squarepants": [
+    "Wind",
+    "SpongeBob SquarePants"
+  ],
+  "Ten Commandments": [
+    "Wind",
+    "Commandments"
+  ],
+  "Flying V": [
+    "Wind",
+    "Geese"
+  ],
+  "Aria": [
+    "Wind",
+    "Opera"
+  ],
+  "Pinocchio": [
+    "Wind",
+    "Doll"
+  ],
+  "Cookie Monster": [
+    "Wind",
+    "Cookie"
+  ],
+  "Glass Slipper": [
+    "Wind",
+    "Cinderella"
+  ],
+  "Dusty Wind": [
+    "Wind",
+    "Dusty Springfield"
+  ],
+  "Frosting": [
+    "Wind",
+    "Cake"
+  ],
+  "Sharkicane": [
+    "Wind",
+    "Sharknado"
+  ],
+  "Solar Wind": [
+    "Wind",
+    "Solar Flare"
+  ],
+  "Evolution": [
+    "Wind",
+    "DNA"
+  ],
+  "Blowout": [
+    "Wind",
+    "Party"
+  ],
+  "Statue Of Liberty": [
+    "Wind",
+    "Statue of Liberty"
+  ],
+  "Tea Leaf": [
+    "Wind",
+    "Tea Cup"
+  ],
+  "Jackson": [
+    "Wind",
+    "Pollock"
+  ],
+  "Sea Foam": [
+    "Wind",
+    "Sea Milk"
+  ],
+  "Dry Paint": [
+    "Wind",
+    "Wet Paint"
+  ],
+  "Smore": [
+    "Wind",
+    "S’more"
+  ],
+  "Red Dust": [
+    "Wind",
+    "Red Sea"
+  ],
+  "Cool Tea": [
+    "Wind",
+    "Hot Tea"
+  ],
+  "Rat King": [
+    "Wind",
+    "Rat"
+  ],
+  "Flying Newfie": [
+    "Wind",
+    "Newfie"
+  ],
+  "Kung Fu Panda": [
+    "Wind",
+    "Panda"
+  ],
+  "Sailing": [
+    "Wind",
+    "Swimming"
+  ],
+  "Flying Soggy Cheeseburger": [
+    "Wind",
+    "Soggy Cheeseburger"
+  ],
+  "Gondorian": [
+    "Wind",
+    "Gondor"
+  ],
+  "Prince Of Air": [
+    "Wind",
+    "Prince Of Water"
+  ],
+  "Smokey The Bear": [
+    "Wind",
+    "Smokey the Bear"
+  ],
+  "Jade Wind": [
+    "Wind",
+    "Jade Fountain"
+  ],
+  "Dirty Air": [
+    "Wind",
+    "Dirty Harry"
+  ],
+  "Hot Springs": [
+    "Lake",
+    "Hot Water"
+  ],
+  "Chocolate Lake": [
+    "Lake",
+    "Chocolate Milk"
+  ],
+  "Soggy Bread": [
+    "Lake",
+    "Soggy Toast"
+  ],
+  "Eye": [
+    "Lake",
+    "Tear"
+  ],
+  "Mopping": [
+    "Lake",
+    "Mop"
+  ],
+  "Odin": [
+    "Lake",
+    "Viking"
+  ],
+  "Tacocat": [
+    "Lake",
+    "Taco"
+  ],
+  "Newfoundland": [
+    "Lake",
+    "Dog"
+  ],
+  "Home": [
+    "Lake",
+    "Umpire"
+  ],
+  "Leech": [
+    "Lake",
+    "Worm"
+  ],
+  "Neptune": [
+    "Lake",
+    "King"
+  ],
+  "St. Patrick": [
+    "Lake",
+    "Patrick"
+  ],
+  "Swine": [
+    "Lake",
+    "Pig"
+  ],
+  "Hoover Dam": [
+    "Lake",
+    "Grand Canyon"
+  ],
+  "Water Ski": [
+    "Lake",
+    "Hanglider"
+  ],
+  "Mosquito": [
+    "Lake",
+    "Fruit Fly"
+  ],
+  "Pizza Fish": [
+    "Lake",
+    "Flying Pizza"
+  ],
+  "Swimsuit": [
+    "Lake",
+    "Heidi Klum"
+  ],
+  "Pier": [
+    "Lake",
+    "Dock"
+  ],
+  "Chicago": [
+    "Lake",
+    "Michigan"
+  ],
+  "Vacation": [
+    "Lake",
+    "Pina Colada"
+  ],
+  "Jaws": [
+    "Lake",
+    "Movie"
+  ],
+  "Nen Hithoel": [
+    "Lake",
+    "Lord of the Rings"
+  ],
+  "Green Lake": [
+    "Lake",
+    "Salsa Verde"
+  ],
+  "Piece": [
+    "Lake",
+    "Pie"
+  ],
+  "Soda Lake": [
+    "Lake",
+    "Soda Pop"
+  ],
+  "Kellogg": [
+    "Lake",
+    "Cereal"
+  ],
+  "Saline": [
+    "Lake",
+    "Aspirin"
+  ],
+  "Bloody Mary": [
+    "Lake",
+    "Tomato"
+  ],
+  "Coca-Cola": [
+    "Lake",
+    "Coca"
+  ],
+  "Jello": [
+    "Lake",
+    "Pudding"
+  ],
+  "Rivendell": [
+    "Lake",
+    "Mordor"
+  ],
+  "Demon": [
+    "Lake",
+    "Devil"
+  ],
+  "Megatron": [
+    "Lake",
+    "Cybertron"
+  ],
+  "Old Faithful": [
+    "Lake",
+    "Yellowstone"
+  ],
+  "Pepsi": [
+    "Lake",
+    "Coke"
+  ],
+  "Shelley": [
+    "Lake",
+    "Ozymandias"
+  ],
+  "Lake Rushmore": [
+    "Lake",
+    "Mt. Rushmore"
+  ],
+  "Lake Pants": [
+    "Lake",
+    "MountainPants"
+  ],
+  "Water Park": [
+    "Lake",
+    "Roller Coaster"
+  ],
+  "Jade Lake": [
+    "Lake",
+    "Jade Dragon"
+  ],
+  "Pelican": [
+    "Lake",
+    "Condor"
+  ],
+  "Switzerland": [
+    "Lake",
+    "Matterhorn"
+  ],
+  "Dusty Lake": [
+    "Lake",
+    "Dusty Springfield"
+  ],
+  "Sandboarding": [
+    "Lake",
+    "Sandboard"
+  ],
+  "Nixon": [
+    "Lake",
+    "President"
+  ],
+  "Sharktopus": [
+    "Lake",
+    "Sharknado"
+  ],
+  "Piranha": [
+    "Lake",
+    "Shark"
+  ],
+  "Bouncing": [
+    "Lake",
+    "Rubberband"
+  ],
+  "Lake Trashmore": [
+    "Lake",
+    "Mount Trashmore"
+  ],
+  "Peter Pan": [
+    "Lake",
+    "Tinkerbell"
+  ],
+  "Toga Party": [
+    "Lake",
+    "Frat Party"
+  ],
+  "Lagoon": [
+    "Lake",
+    "Tropic"
+  ],
+  "Amphicar": [
+    "Lake",
+    "Flying Car"
+  ],
+  "Hydrofluoric Acid": [
+    "Lake",
+    "Fluoride"
+  ],
+  "Latte": [
+    "Lake",
+    "Coffee"
+  ],
+  "Otter": [
+    "Lake",
+    "Rat"
+  ],
+  "Hot Lake": [
+    "Lake",
+    "Hot Chocolate"
+  ],
+  "Jesus": [
+    "Lake",
+    "Baptism"
+  ],
+  "Moai": [
+    "Lake",
+    "Tiki"
+  ],
+  "Dirty Lake": [
+    "Lake",
+    "Dirty Martini"
+  ],
+  "Punch Bowl": [
+    "Lake",
+    "Punch"
+  ],
+  "LSD": [
+    "Lake",
+    "Pill"
+  ],
+  "Peach Tea": [
+    "Lake",
+    "Peach Juice"
+  ],
+  "Heaven": [
+    "Lake",
+    "Stairway to Heaven"
+  ],
+  "T-1000000": [
+    "Lake",
+    "T-1000"
+  ],
+  "Swamp Thing": [
+    "Lake",
+    "Dirty Harry"
+  ],
+  "Dusty Springlake": [
+    "Lake",
+    "Dusty Springwater"
+  ],
+  "Baikal": [
+    "Lake",
+    "Mongolia"
+  ],
+  "Skipping Stone": [
+    "Lake",
+    "Slingshot"
+  ],
+  "Central Park": [
+    "Lake",
+    "New York"
+  ],
+  "Steamed Lobster": [
+    "Steam",
+    "Lobster"
+  ],
+  "Noodle": [
+    "Steam",
+    "Pasta"
+  ],
+  "Steam Dance": [
+    "Steam",
+    "Fire Dance"
+  ],
+  "Steamplane": [
+    "Steam",
+    "Fireplane"
+  ],
+  "Computer": [
+    "Steam",
+    "Chip"
+  ],
+  "Play": [
+    "Steam",
+    "Theater"
+  ],
+  "Hotdog": [
+    "Steam",
+    "Dog"
+  ],
+  "Steamer": [
+    "Steam",
+    "Umpire"
+  ],
+  "Snake": [
+    "Steam",
+    "Worm"
+  ],
+  "Steam Storm": [
+    "Steam",
+    "Fire Storm"
+  ],
+  "Flying Saucer": [
+    "Steam",
+    "Frisbee"
+  ],
+  "Flying Steam": [
+    "Steam",
+    "Flying Pizza"
+  ],
+  "Telegram": [
+    "Steam",
+    "Message"
+  ],
+  "Model": [
+    "Steam",
+    "Heidi Klum"
+  ],
+  "Anime": [
+    "Steam",
+    "Japan"
+  ],
+  "Steam Pizza": [
+    "Steam",
+    "Pizza Hut"
+  ],
+  "Steam Golem": [
+    "Steam",
+    "Water Strider"
+  ],
+  "Toy": [
+    "Steam",
+    "Teddy Bear"
+  ],
+  "Fallout": [
+    "Steam",
+    "Radioactive"
+  ],
+  "Chips": [
+    "Steam",
+    "French Fries"
+  ],
+  "Iron Man": [
+    "Steam",
+    "Spider-Man"
+  ],
+  "Time Machine": [
+    "Steam",
+    "Crystal Ball"
+  ],
+  "Smokey the Steam Engine": [
+    "Steam",
+    "Smokey Bear"
+  ],
+  "Son of a Preacher Man": [
+    "Steam",
+    "Dusty Springfield"
+  ],
+  "Steamnado": [
+    "Steam",
+    "Sharknado"
+  ],
+  "Tazmanian Devil": [
+    "Steam",
+    "Taz"
+  ],
+  "Cheese Steam": [
+    "Steam",
+    "Flying Cheese"
+  ],
+  "Steampunk Pirate Ship": [
+    "Steam",
+    "Steampunk Pirate"
+  ],
+  "Mucus": [
+    "Steam",
+    "Phlegm"
+  ],
+  "Steam Goat": [
+    "Steam",
+    "Sea Goat"
+  ],
+  "Mouthwash": [
+    "Water",
+    "Toothpaste"
+  ],
+  "Monkey Island 4": [
+    "Water",
+    "Monkey Island 3"
+  ],
+  "Jadeite": [
+    "Water",
+    "Jade"
+  ],
+  "Harry Potter": [
+    "Water",
+    "Wet Harry"
+  ],
+  "Blue": [
+    "Water",
+    "Sapphire"
+  ],
+  "Pancakes": [
+    "Water",
+    "Crepes"
+  ],
+  "Soggy Burrito": [
+    "Water",
+    "Burrito"
+  ],
+  "Vinyl": [
+    "Water",
+    "Disc"
+  ],
+  "Sewage": [
+    "Water",
+    "Stink"
+  ],
+  "Jury": [
+    "Water",
+    "Trial"
+  ],
+  "Motor City": [
+    "Water",
+    "Detroit"
+  ],
+  "Pink": [
+    "Water",
+    "Flamingo"
+  ],
+  "Archer": [
+    "Water",
+    "Sagittarius"
+  ],
+  "Spicy Steak Soup": [
+    "Water",
+    "Spicy Steak"
+  ],
+  "Bunny": [
+    "Water",
+    "Rabbit"
+  ],
+  "Burnt Soup": [
+    "Water",
+    "Burnt Patty"
+  ],
+  "Soggy Burger": [
+    "Water",
+    "Burger"
+  ],
+  "Optimus PRIME": [
+    "Water",
+    "Optimus Prime"
+  ],
+  "Taco Boat": [
+    "Water",
+    "Taco Truck"
+  ],
+  "Lake Monster": [
+    "Water",
+    "Bigfoot"
+  ],
+  "Jacuzzi": [
+    "Water",
+    "Hot Tub"
+  ],
+  "Lechuck": [
+    "Water",
+    "LeChuck"
+  ],
+  "Hydra": [
+    "Water",
+    "Cerberus"
+  ],
+  "Ganges": [
+    "Water",
+    "India"
+  ],
+  "Pencil": [
+    "Water",
+    "Charcoal"
+  ],
+  "Leak": [
+    "Water",
+    "Library"
+  ],
+  "Moose Juice": [
+    "Water",
+    "Moose"
+  ],
+  "Soggy Rice Krispie Treat": [
+    "Water",
+    "Rice Krispie Treat"
+  ],
+  "Bay": [
+    "Water",
+    "San Francisco"
+  ],
+  "Lincoln Memorial": [
+    "Water",
+    "Lincoln"
+  ],
+  "Yoga": [
+    "Water",
+    "Guru"
+  ],
+  "Australia": [
+    "Water",
+    "Tasmania"
+  ],
+  "Sealion": [
+    "Water",
+    "Seal"
+  ],
+  "Fluorine": [
+    "Water",
+    "Fluorite"
+  ],
+  "Apple Juice": [
+    "Water",
+    "Apple Pie"
+  ],
+  "Navigation": [
+    "Water",
+    "Compass"
+  ],
+  "Pigcasso": [
+    "Water",
+    "Flying Pig"
+  ],
+  "Hippo": [
+    "Water",
+    "Antelope"
+  ],
+  "Sponge Cake": [
+    "Water",
+    "Piece of Cake"
+  ],
+  "Guitar": [
+    "Water",
+    "Flying V"
+  ],
+  "Song": [
+    "Water",
+    "Aria"
+  ],
+  "Puppet": [
+    "Water",
+    "Pinocchio"
+  ],
+  "Jade Water": [
+    "Water",
+    "Jade Wind"
+  ],
+  "Mjolnir": [
+    "Water",
+    "Odin"
+  ],
+  "Malaria": [
+    "Water",
+    "Mosquito"
+  ],
+  "Cruise": [
+    "Water",
+    "Vacation"
+  ],
+  "Corn Flakes": [
+    "Water",
+    "Kellogg"
+  ],
+  "Swimming Trunks": [
+    "Water",
+    "Lake Pants"
+  ],
+  "Watergate": [
+    "Water",
+    "Nixon"
+  ],
+  "Wet T-Shirt Contest": [
+    "Water",
+    "Toga Party"
+  ],
+  "Amphibious Car": [
+    "Water",
+    "Amphicar"
+  ],
+  "Easter Island": [
+    "Water",
+    "Moai"
+  ],
+  "Clean Lake": [
+    "Water",
+    "Dirty Lake"
+  ],
+  "Ripple": [
+    "Water",
+    "Skipping Stone"
+  ],
+  "Sailor Moon": [
+    "Water",
+    "Anime"
+  ],
+  "Booger": [
+    "Fire",
+    "Snot"
+  ],
+  "Fire Tea": [
+    "Fire",
+    "Ice Tea"
+  ],
+  "Alchemy": [
+    "Fire",
+    "Elixir"
+  ],
+  "Dry Harry": [
+    "Fire",
+    "Wet Harry"
+  ],
+  "Jersey Shore": [
+    "Fire",
+    "New Jersey"
+  ],
+  "Burnt Burrito": [
+    "Fire",
+    "Burrito"
+  ],
+  "CD": [
+    "Fire",
+    "Disc"
+  ],
+  "Skunk": [
+    "Fire",
+    "Stink"
+  ],
+  "Trial by Fire": [
+    "Fire",
+    "Trial"
+  ],
+  "Fire Teddy Bear": [
+    "Fire",
+    "Burning Teddy Bear"
+  ],
+  "Robbery": [
+    "Fire",
+    "Bank"
+  ],
+  "Burnt Burger": [
+    "Fire",
+    "Burger"
+  ],
+  "Balrog": [
+    "Fire",
+    "Sauron"
+  ],
+  "Jam": [
+    "Fire",
+    "Traffic"
+  ],
+  "Burning Man": [
+    "Fire",
+    "Carnival"
+  ],
+  "Terror": [
+    "Fire",
+    "9/11"
+  ],
+  "War": [
+    "Fire",
+    "Country"
+  ],
+  "Toy Story": [
+    "Fire",
+    "Pixar"
+  ],
+  "Projector": [
+    "Fire",
+    "Film"
+  ],
+  "Crack": [
+    "Fire",
+    "Cocaine"
+  ],
+  "Korea": [
+    "Fire",
+    "Kimchi"
+  ],
+  "Moose on Fire": [
+    "Fire",
+    "Moose"
+  ],
+  "Smores": [
+    "Fire",
+    "Camp"
+  ],
+  "Abe": [
+    "Fire",
+    "Lincoln"
+  ],
+  "King Of Fire": [
+    "Fire",
+    "King Of Water"
+  ],
+  "Adam": [
+    "Fire",
+    "Garden Of Eden"
+  ],
+  "Fire Tape": [
+    "Fire",
+    "Duck Tape"
+  ],
+  "Venison": [
+    "Fire",
+    "Antelope"
+  ],
+  "Birthday": [
+    "Fire",
+    "Piece of Cake"
+  ],
+  "Fire Weed": [
+    "Fire",
+    "Space Weed"
+  ],
+  "Hot Patty": [
+    "Fire",
+    "Flying Krabby Patty"
+  ],
+  "Michael": [
+    "Fire",
+    "Jackson"
+  ],
+  "Firefighting Newfie": [
+    "Fire",
+    "Flying Newfie"
+  ],
+  "Fire Panda": [
+    "Fire",
+    "Kung Fu Panda"
+  ],
+  "Laser": [
+    "Fire",
+    "Eye"
+  ],
+  "Ragnarok": [
+    "Fire",
+    "Odin"
+  ],
+  "Labrador": [
+    "Fire",
+    "Newfoundland"
+  ],
+  "Trident": [
+    "Fire",
+    "Neptune"
+  ],
+  "Leprechaun": [
+    "Fire",
+    "St. Patrick"
+  ],
+  "Fire Ski": [
+    "Fire",
+    "Water Ski"
+  ],
+  "Bulls": [
+    "Fire",
+    "Chicago"
+  ],
+  "Chess": [
+    "Fire",
+    "Piece"
+  ],
+  "Fire Pants": [
+    "Fire",
+    "Lake Pants"
+  ],
+  "Sea Otter": [
+    "Fire",
+    "Otter"
+  ],
+  "T-2000000": [
+    "Fire",
+    "T-1000000"
+  ],
+  "Swamp Fire": [
+    "Fire",
+    "Swamp Thing"
+  ],
+  "Ramen": [
+    "Fire",
+    "Noodle"
+  ],
+  "Hack": [
+    "Fire",
+    "Computer"
+  ],
+  "Inferno": [
+    "Fire",
+    "Steam Storm"
+  ],
+  "Fire Truck": [
+    "Fire",
+    "Time Machine"
+  ],
+  "Smokey The Steam Engine": [
+    "Fire",
+    "Smokey the Steam Engine"
+  ],
+  "John The Baptist": [
+    "Fire",
+    "Son of a Preacher Man"
+  ],
+  "Satan": [
+    "Fire",
+    "Steam Goat"
+  ],
+  "Coffin": [
+    "Earth",
+    "Box"
+  ],
+  "Dirt Martini": [
+    "Earth",
+    "Clean Martini"
+  ],
+  "Guybrush Threepwood": [
+    "Earth",
+    "Monkey Island 3"
+  ],
+  "Taurus": [
+    "Earth",
+    "Aquarius"
+  ],
+  "Toxic Waste": [
+    "Earth",
+    "New Jersey"
+  ],
+  "Knight": [
+    "Earth",
+    "Sword"
+  ],
+  "Planet Of The Apes": [
+    "Earth",
+    "Monkey on Fire"
+  ],
+  "Lawyer": [
+    "Earth",
+    "Trial"
+  ],
+  "Motor": [
+    "Earth",
+    "Detroit"
+  ],
+  "Iran": [
+    "Earth",
+    "Caspian Sea"
+  ],
+  "Centaur": [
+    "Earth",
+    "Sagittarius"
+  ],
+  "Hare": [
+    "Earth",
+    "Rabbit"
+  ],
+  "Crop Circle": [
+    "Earth",
+    "UFO"
+  ],
+  "Shoe": [
+    "Earth",
+    "Cobbler"
+  ],
+  "Parking": [
+    "Earth",
+    "Traffic"
+  ],
+  "Genghis": [
+    "Earth",
+    "Fire Khan"
+  ],
+  "Mardi Gras": [
+    "Earth",
+    "Carnival"
+  ],
+  "Twin Towers": [
+    "Earth",
+    "9/11"
+  ],
+  "Plate": [
+    "Earth",
+    "Tectonic"
+  ],
+  "Hades": [
+    "Earth",
+    "Cerberus"
+  ],
+  "Taj Mahal": [
+    "Earth",
+    "India"
+  ],
+  "World": [
+    "Earth",
+    "Globe"
+  ],
+  "Empire": [
+    "Earth",
+    "Kingdom"
+  ],
+  "City": [
+    "Earth",
+    "Skyscraper"
+  ],
+  "Basket": [
+    "Earth",
+    "Parachute"
+  ],
+  "Fashion": [
+    "Earth",
+    "Supermodel"
+  ],
+  "Wall-E": [
+    "Earth",
+    "Pixar"
+  ],
+  "Coca Plant": [
+    "Earth",
+    "Cocaine"
+  ],
+  "Disneyland": [
+    "Earth",
+    "Theme Park"
+  ],
+  "Kitt": [
+    "Earth",
+    "Eartha"
+  ],
+  "Gazelle": [
+    "Earth",
+    "Antelope"
+  ],
+  "Flying Potato": [
+    "Earth",
+    "Flying Potato Chip"
+  ],
+  "Hollywood": [
+    "Earth",
+    "Cinema"
+  ],
+  "Prince Of Earth": [
+    "Earth",
+    "Prince Of Air"
+  ],
+  "Triton": [
+    "Earth",
+    "Neptune"
+  ],
+  "Shamrock": [
+    "Earth",
+    "St. Patrick"
+  ],
+  "Illinois": [
+    "Earth",
+    "Chicago"
+  ],
+  "Cornflakes": [
+    "Earth",
+    "Kellogg"
+  ],
+  "Mount": [
+    "Earth",
+    "Lake Rushmore"
+  ],
+  "Trip": [
+    "Earth",
+    "LSD"
+  ],
+  "Siberia": [
+    "Earth",
+    "Baikal"
+  ],
+  "Game": [
+    "Earth",
+    "Play"
+  ],
+  "Medusa": [
+    "Earth",
+    "Snake"
+  ],
+  "Sandbox": [
+    "Earth",
+    "Toy"
+  ],
+  "Pandacorn": [
+    "Wind",
+    "Pandacub"
+  ],
+  "Hair": [
+    "Wind",
+    "Wet Harry"
+  ],
+  "Flying Hot Dog": [
+    "Wind",
+    "Hot Dog"
+  ],
+  "Flying Monkey": [
+    "Wind",
+    "Sun Wukong"
+  ],
+  "Flamenco": [
+    "Wind",
+    "Flamingo"
+  ],
+  "Arrow": [
+    "Wind",
+    "Sagittarius"
+  ],
+  "Fusion": [
+    "Wind",
+    "Nuclear"
+  ],
+  "Flying Burger": [
+    "Wind",
+    "Burger"
+  ],
+  "Flying Bagel": [
+    "Wind",
+    "Bagel"
+  ],
+  "Pan Flute": [
+    "Wind",
+    "Pan"
+  ],
+  "Hamster Wheel": [
+    "Wind",
+    "Hamster"
+  ],
+  "Paraglider": [
+    "Wind",
+    "Parachute"
+  ],
+  "Up": [
+    "Wind",
+    "Pixar"
+  ],
+  "Paper Airplane": [
+    "Wind",
+    "Library"
+  ],
+  "Moosewind": [
+    "Wind",
+    "Moose"
+  ],
+  "Flying Dry Toast": [
+    "Wind",
+    "Flying Soggy Toast"
+  ],
+  "Flying Cake": [
+    "Wind",
+    "Piece of Cake"
+  ],
+  "Cookie Tornado": [
+    "Wind",
+    "Cookie Monster"
+  ],
+  "Chocolate Cloud": [
+    "Wind",
+    "Chocolate Lake"
+  ],
+  "Windy City": [
+    "Wind",
+    "Chicago"
+  ],
+  "Elrond": [
+    "Wind",
+    "Rivendell"
+  ],
+  "Latte Art": [
+    "Wind",
+    "Latte"
+  ],
+  "Flying Lobster": [
+    "Wind",
+    "Steamed Lobster"
+  ],
+  "Flying Noodle": [
+    "Wind",
+    "Noodle"
+  ],
+  "Flying Hotdog": [
+    "Wind",
+    "Hotdog"
+  ],
+  "Telephone": [
+    "Wind",
+    "Telegram"
+  ],
+  "Naruto": [
+    "Wind",
+    "Anime"
+  ],
+  "Air Golem": [
+    "Wind",
+    "Steam Golem"
+  ],
+  "Fries": [
+    "Wind",
+    "Chips"
+  ],
+  "Gospel": [
+    "Wind",
+    "Son of a Preacher Man"
+  ],
+  "Cheese Cloud": [
+    "Wind",
+    "Cheese Steam"
+  ],
+  "Mint": [
+    "Lake",
+    "Toothpaste"
+  ],
+  "Boxer": [
+    "Lake",
+    "Box"
+  ],
+  "Pisces": [
+    "Lake",
+    "Aquarius"
+  ],
+  "River Styx": [
+    "Lake",
+    "Waterway To Heaven"
+  ],
+  "Dry Lake": [
+    "Lake",
+    "Dryvac"
+  ],
+  "Excalibur": [
+    "Lake",
+    "Sword"
+  ],
+  "Necklace": [
+    "Lake",
+    "Sapphire"
+  ],
+  "Monkey On A Boat": [
+    "Lake",
+    "Monkey on Fire"
+  ],
+  "Caspian Lake": [
+    "Lake",
+    "Caspian Sea"
+  ],
+  "Loan": [
+    "Lake",
+    "Bank"
+  ],
+  "Pan’s Labyrinth": [
+    "Lake",
+    "Pan"
+  ],
+  "Golf": [
+    "Lake",
+    "Lawn"
+  ],
+  "Skydiver": [
+    "Lake",
+    "Parachute"
+  ],
+  "Tokyo Bay": [
+    "Lake",
+    "Tokyo"
+  ],
+  "Avocado": [
+    "Lake",
+    "Guacamole"
+  ],
+  "Google": [
+    "Lake",
+    "Satellite"
+  ],
+  "Golden Gate Bridge": [
+    "Lake",
+    "San Francisco"
+  ],
+  "Abraham": [
+    "Lake",
+    "Lincoln"
+  ],
+  "Bouncy Castle": [
+    "Lake",
+    "Bouncy Ball"
+  ],
+  "Duck Pond": [
+    "Lake",
+    "Duck Tape"
+  ],
+  "Spaghetti Monster": [
+    "Lake",
+    "Flying Spaghetti Monster"
+  ],
+  "Nixie": [
+    "Lake",
+    "Valkyrie"
+  ],
+  "Lion King": [
+    "Lake",
+    "Simba"
+  ],
+  "Piece Of Pie": [
+    "Lake",
+    "Piece of Cake"
+  ],
+  "Space Lake": [
+    "Lake",
+    "Space Weed"
+  ],
+  "Loon": [
+    "Lake",
+    "Flying V"
+  ],
+  "Aurora": [
+    "Lake",
+    "Solar Wind"
+  ],
+  "Po": [
+    "Lake",
+    "Kung Fu Panda"
+  ],
+  "Wakeboard": [
+    "Lake",
+    "Water Ski"
+  ],
+  "Peace": [
+    "Lake",
+    "Piece"
+  ],
+  "Geneva": [
+    "Lake",
+    "Switzerland"
+  ],
+  "Walk": [
+    "Lake",
+    "Jesus"
+  ],
+  "T-10000000": [
+    "Lake",
+    "T-1000000"
+  ],
+  "Server": [
+    "Lake",
+    "Computer"
+  ],
+  "Pokemon": [
+    "Lake",
+    "Anime"
+  ],
+  "Smokey The Lake Engine": [
+    "Lake",
+    "Smokey the Steam Engine"
+  ],
+  "Dock Of The Bay": [
+    "Lake",
+    "Son of a Preacher Man"
+  ],
+  "Cheese Lake": [
+    "Lake",
+    "Cheese Steam"
+  ],
+  "Steam Age": [
+    "Steam",
+    "Ice Age"
+  ],
+  "Cappuccino": [
+    "Steam",
+    "Coffee"
+  ],
+  "Red Steam": [
+    "Steam",
+    "Red Sea"
+  ],
+  "Steamy Martini": [
+    "Steam",
+    "Dirty Martini"
+  ],
+  "Monkey Island 2: Special Edition": [
+    "Steam",
+    "Monkey Island 2"
+  ],
+  "SteamPunk": [
+    "Steam",
+    "Potion"
+  ],
+  "Synchronized Swimming": [
+    "Steam",
+    "Swimming"
+  ],
+  "Prince Of Steam": [
+    "Steam",
+    "Prince Of Water"
+  ],
+  "Smokey The Steam": [
+    "Steam",
+    "Smokey the Bear"
+  ],
+  "Yak": [
+    "Steam",
+    "Mongolia"
+  ],
+  "Scandal": [
+    "Steam",
+    "Paparazzi"
+  ],
+  "Dentist": [
+    "Steam",
+    "Toothpaste"
+  ],
+  "Steam Cleaner": [
+    "Steam",
+    "Clean Martini"
+  ],
+  "Monkey On A Stick": [
+    "Steam",
+    "Monkey on Fire"
+  ],
+  "Wet Burrito": [
+    "Steam",
+    "Burrito"
+  ],
+  "Steam Lord": [
+    "Steam",
+    "Firelord"
+  ],
+  "Spicy Steam": [
+    "Steam",
+    "Spicy Steak"
+  ],
+  "Burnt Steam": [
+    "Steam",
+    "Burnt Patty"
+  ],
+  "Steamtron": [
+    "Steam",
+    "Firetron"
+  ],
+  "Steambot": [
+    "Steam",
+    "Firebot"
+  ],
+  "Steamade": [
+    "Steam",
+    "Fireade"
+  ],
+  "Steam Devil": [
+    "Steam",
+    "Fire Devil"
+  ],
+  "Mower": [
+    "Steam",
+    "Lawn"
+  ],
+  "Steamed Kimchi": [
+    "Steam",
+    "Kimchi"
+  ],
+  "Slimy Steam": [
+    "Steam",
+    "Slime"
+  ],
+  "King Of Steam": [
+    "Steam",
+    "King Of Water"
+  ],
+  "Scotch": [
+    "Steam",
+    "Whiskey"
+  ],
+  "Flying Steam Potato Chip": [
+    "Steam",
+    "Flying Potato Chip"
+  ],
+  "Flying Steam Krabby Patty": [
+    "Steam",
+    "Flying Krabby Patty"
+  ],
+  "Flying Steam Cheeseburger": [
+    "Steam",
+    "Flying Cheeseburger"
+  ],
+  "Glasses": [
+    "Steam",
+    "Eye"
+  ],
+  "Spa": [
+    "Steam",
+    "Vacation"
+  ],
+  "Cuckoo Clock": [
+    "Steam",
+    "Switzerland"
+  ],
+  "Christ": [
+    "Steam",
+    "Jesus"
+  ],
+  "Peach Pie": [
+    "Steam",
+    "Peach Tea"
+  ],
+  "Steam Man": [
+    "Steam",
+    "Iron Man"
+  ],
+  "Time Travel": [
+    "Steam",
+    "Time Machine"
+  ],
+  "Soul": [
+    "Steam",
+    "Son of a Preacher Man"
+  ],
+  "Reed": [
+    "Plant",
+    "Parting"
+  ],
+  "Papyrus": [
+    "Plant",
+    "Nile"
+  ],
+  "Onion": [
+    "Plant",
+    "Tears"
+  ],
+  "Bonsai": [
+    "Plant",
+    "Saki"
+  ],
+  "Dark Matter": [
+    "Plant",
+    "Black Hole"
+  ],
+  "Sos": [
+    "Plant",
+    "SOS"
+  ],
+  "Dryad": [
+    "Plant",
+    "Satyr"
+  ],
+  "Auditorium": [
+    "Plant",
+    "Theater"
+  ],
+  "Bouquet": [
+    "Plant",
+    "Wedding"
+  ],
+  "Aphid": [
+    "Plant",
+    "Ant"
+  ],
+  "Parasite": [
+    "Plant",
+    "Parasail"
+  ],
+  "Pizza Plant": [
+    "Plant",
+    "Flying Pizza"
+  ],
+  "Olive": [
+    "Plant",
+    "Martini"
+  ],
+  "Ent": [
+    "Plant",
+    "Lord of the Rings"
+  ],
+  "Mojito": [
+    "Plant",
+    "Cocktail"
+  ],
+  "Carrot": [
+    "Plant",
+    "Steam Bunny"
+  ],
+  "Penicillin": [
+    "Plant",
+    "Mold"
+  ],
+  "Photosynthesis": [
+    "Plant",
+    "Chloroplast"
+  ],
+  "Mistletoe": [
+    "Plant",
+    "Candy Cane"
+  ],
+  "Reuben": [
+    "Plant",
+    "Sauerkraut"
+  ],
+  "Jasmine": [
+    "Plant",
+    "Prince of Persia"
+  ],
+  "Pigweed": [
+    "Plant",
+    "Ham"
+  ],
+  "Peach Tree": [
+    "Plant",
+    "Peach"
+  ],
+  "Coin": [
+    "Plant",
+    "Metal"
+  ],
+  "Spider Plant": [
+    "Plant",
+    "Tarantula"
+  ],
+  "Shampoo": [
+    "Plant",
+    "Soap"
+  ],
+  "Chia Pet": [
+    "Plant",
+    "Doll"
+  ],
+  "Jack and the Beanstalk": [
+    "Plant",
+    "Fairy Tale"
+  ],
+  "Potus": [
+    "Plant",
+    "President"
+  ],
+  "Carpet": [
+    "Plant",
+    "Floor"
+  ],
+  "Coconut Tree": [
+    "Plant",
+    "Coconut Milkshake"
+  ],
+  "Liberty Tree": [
+    "Plant",
+    "Statue of Liberty"
+  ],
+  "Steampunk Plant": [
+    "Plant",
+    "Steampunk Pirate"
+  ],
+  "Kale": [
+    "Plant",
+    "Atlantic"
+  ],
+  "Mammoth": [
+    "Plant",
+    "Ice Age"
+  ],
+  "Steam Plant": [
+    "Plant",
+    "Steam Duck"
+  ],
+  "Tin": [
+    "Plant",
+    "Steel"
+  ],
+  "Slip": [
+    "Plant",
+    "Water Slide"
+  ],
+  "Lot": [
+    "Plant",
+    "Gomorrah"
+  ],
+  "Jade Plant": [
+    "Plant",
+    "Jade Fountain"
+  ],
+  "Triffid": [
+    "Plant",
+    "Dirty Harry"
+  ],
+  "Toothbrush": [
+    "Plant",
+    "Toothpaste"
+  ],
+  "Iced Tea": [
+    "Plant",
+    "Ice Tea"
+  ],
+  "Pesto": [
+    "Plant",
+    "Spaghetti"
+  ],
+  "Thorn": [
+    "Plant",
+    "Sword"
+  ],
+  "Dragon Fruit": [
+    "Plant",
+    "Dragon Fire"
+  ],
+  "Sausage Tree": [
+    "Plant",
+    "Sausage"
+  ],
+  "Treezilla": [
+    "Plant",
+    "Godzilla"
+  ],
+  "Burnt Plant": [
+    "Plant",
+    "Burnt Patty"
+  ],
+  "Shakespeare": [
+    "Plant",
+    "Tragedy"
+  ],
+  "Fireflower": [
+    "Plant",
+    "Firefish"
+  ],
+  "Parade": [
+    "Plant",
+    "Carnival"
+  ],
+  "Fire Plant": [
+    "Plant",
+    "Fireade"
+  ],
+  "Vegetarian": [
+    "Plant",
+    "Ratatouille"
+  ],
+  "Pork Chop": [
+    "Plant",
+    "Pork"
+  ],
+  "Gingerbread Tree": [
+    "Plant",
+    "Gingerbread Man"
+  ],
+  "Shrub": [
+    "Plant",
+    "Rice Krispie Treat"
+  ],
+  "Abe Lincoln": [
+    "Plant",
+    "Lincoln"
+  ],
+  "Jurassic Park": [
+    "Plant",
+    "Theme Park"
+  ],
+  "Trampoline": [
+    "Plant",
+    "Bouncy Ball"
+  ],
+  "Sealant": [
+    "Plant",
+    "Seal"
+  ],
+  "Apple Tree": [
+    "Plant",
+    "Apple Pie"
+  ],
+  "Flying Potato Plant": [
+    "Plant",
+    "Flying Potato Chip"
+  ],
+  "Tree of Knowledge": [
+    "Plant",
+    "Ten Commandments"
+  ],
+  "Paintbrush": [
+    "Plant",
+    "Dry Paint"
+  ],
+  "Clean Air": [
+    "Plant",
+    "Dirty Air"
+  ],
+  "Yggdrasil": [
+    "Plant",
+    "Odin"
+  ],
+  "Gangster": [
+    "Plant",
+    "Chicago"
+  ],
+  "Coca-plant": [
+    "Plant",
+    "Coca-Cola"
+  ],
+  "Lime": [
+    "Plant",
+    "Jello"
+  ],
+  "Mangrove": [
+    "Plant",
+    "Lagoon"
+  ],
+  "Caduceus": [
+    "Plant",
+    "Snake"
+  ],
+  "Flying Plant": [
+    "Plant",
+    "Flying Steam"
+  ],
+  "Radscorpion": [
+    "Plant",
+    "Fallout"
+  ],
+  "Goodbye": [
+    "Wave",
+    "Parting"
+  ],
+  "Seashell": [
+    "Wave",
+    "Shell"
+  ],
+  "Garnet": [
+    "Wave",
+    "Ruby"
+  ],
+  "Radar": [
+    "Wave",
+    "Microwave"
+  ],
+  "Pickle Surfer": [
+    "Wave",
+    "Pickle Rick"
+  ],
+  "Monkey Island 5": [
+    "Water",
+    "Monkey Island 4"
+  ],
+  "Soggy Pancakes": [
+    "Water",
+    "Pancakes"
+  ],
+  "Record": [
+    "Water",
+    "Vinyl"
+  ],
+  "Aqua": [
+    "Water",
+    "Jury"
+  ],
+  "Harbor": [
+    "Water",
+    "Bay"
+  ],
+  "Sydney": [
+    "Water",
+    "Australia"
+  ],
+  "Bass": [
+    "Water",
+    "Guitar"
+  ],
+  "Swimmer": [
+    "Water",
+    "Swimming Trunks"
+  ],
+  "Wet T-shirt": [
+    "Water",
+    "Wet T-Shirt Contest"
+  ],
+  "Clean Water": [
+    "Water",
+    "Clean Lake"
+  ],
+  "Sailor Mercury": [
+    "Water",
+    "Sailor Moon"
+  ],
+  "Snooki": [
+    "Water",
+    "Jersey Shore"
+  ],
+  "CdH2O": [
+    "Water",
+    "CD"
+  ],
+  "Toy Boat": [
+    "Water",
+    "Toy Story"
+  ],
+  "S’mores": [
+    "Water",
+    "Smores"
+  ],
+  "Eve": [
+    "Water",
+    "Adam"
+  ],
+  "Jordan": [
+    "Water",
+    "Michael"
+  ],
+  "Pot of Gold": [
+    "Water",
+    "Leprechaun"
+  ],
+  "Bullshit": [
+    "Water",
+    "Bulls"
+  ],
+  "Checkmate": [
+    "Water",
+    "Chess"
+  ],
+  "Wet Guybrush Threepwood": [
+    "Water",
+    "Guybrush Threepwood"
+  ],
+  "Minotaur": [
+    "Water",
+    "Taurus"
+  ],
+  "Persian Gulf": [
+    "Water",
+    "Iran"
+  ],
+  "Parking Lot": [
+    "Water",
+    "Parking"
+  ],
+  "Khan": [
+    "Water",
+    "Genghis"
+  ],
+  "Bourbon Street": [
+    "Water",
+    "Mardi Gras"
+  ],
+  "Dish": [
+    "Water",
+    "Plate"
+  ],
+  "Pirates of the Caribbean": [
+    "Water",
+    "Disneyland"
+  ],
+  "Cat": [
+    "Water",
+    "Kitt"
+  ],
+  "Giraffe": [
+    "Water",
+    "Gazelle"
+  ],
+  "Clover": [
+    "Water",
+    "Shamrock"
+  ],
+  "Breakfast": [
+    "Water",
+    "Cornflakes"
+  ],
+  "Soggy Bagel": [
+    "Water",
+    "Flying Bagel"
+  ],
+  "Water Wheel": [
+    "Water",
+    "Hamster Wheel"
+  ],
+  "Chocolate Rain": [
+    "Water",
+    "Chocolate Cloud"
+  ],
+  "Kakashi": [
+    "Water",
+    "Naruto"
+  ],
+  "Swordfish": [
+    "Water",
+    "Excalibur"
+  ],
+  "Search": [
+    "Water",
+    "Google"
+  ],
+  "Narnia": [
+    "Water",
+    "Lion King"
+  ],
+  "Space Ocean": [
+    "Water",
+    "Space Lake"
+  ],
+  "Wakeboarder": [
+    "Water",
+    "Wakeboard"
+  ],
+  "Waiter": [
+    "Water",
+    "Server"
+  ],
+  "Squirtle": [
+    "Water",
+    "Pokemon"
+  ],
+  "Synchronized Drowning": [
+    "Water",
+    "Synchronized Swimming"
+  ],
+  "Kimchi Soup": [
+    "Water",
+    "Steamed Kimchi"
+  ],
+  "Soggy Potato Chip": [
+    "Water",
+    "Flying Steam Potato Chip"
+  ],
+  "Cuckoo Fish": [
+    "Water",
+    "Cuckoo Clock"
+  ],
+  "Swimming Pool": [
+    "Water",
+    "Auditorium"
+  ],
+  "Kiss": [
+    "Water",
+    "Mistletoe"
+  ],
+  "Jack And The Beanstalk": [
+    "Water",
+    "Jack and the Beanstalk"
+  ],
+  "Wet Carpet": [
+    "Water",
+    "Carpet"
+  ],
+  "Tin Can": [
+    "Water",
+    "Tin"
+  ],
+  "Pesto Soup": [
+    "Water",
+    "Pesto"
+  ],
+  "Honest Abe": [
+    "Water",
+    "Abe Lincoln"
+  ],
+  "Jurassic Sea": [
+    "Water",
+    "Jurassic Park"
+  ],
+  "Glue": [
+    "Water",
+    "Sealant"
+  ],
+  "Coca-cola": [
+    "Water",
+    "Coca-plant"
+  ],
+  "Sonar": [
+    "Water",
+    "Radar"
+  ],
+  "Monkey Island 6": [
+    "Water",
+    "Monkey Island 5"
+  ],
+  "Nike": [
+    "Water",
+    "Jordan"
+  ],
+  "Politics": [
+    "Water",
+    "Bullshit"
+  ],
+  "Labyrinth": [
+    "Water",
+    "Minotaur"
+  ],
+  "Pirates Of The Caribbean": [
+    "Water",
+    "Pirates of the Caribbean"
+  ],
+  "Wet Cat": [
+    "Water",
+    "Cat"
+  ],
+  "Voldemort": [
+    "Fire",
+    "Harry Potter"
+  ],
+  "Purple": [
+    "Fire",
+    "Blue"
+  ],
+  "Firecakes": [
+    "Fire",
+    "Pancakes"
+  ],
+  "Flaming Arrow": [
+    "Fire",
+    "Archer"
+  ],
+  "Agni": [
+    "Fire",
+    "Ganges"
+  ],
+  "Match": [
+    "Fire",
+    "Pencil"
+  ],
+  "Fire Water": [
+    "Fire",
+    "Moose Juice"
+  ],
+  "Sea Lion": [
+    "Fire",
+    "Sealion"
+  ],
+  "Fire Breathing Hippo": [
+    "Fire",
+    "Hippo"
+  ],
+  "Birthday Cake": [
+    "Fire",
+    "Sponge Cake"
+  ],
+  "Dance": [
+    "Fire",
+    "Song"
+  ],
+  "Marionette": [
+    "Fire",
+    "Puppet"
+  ],
+  "Sailor Mars": [
+    "Fire",
+    "Sailor Moon"
+  ],
+  "Music": [
+    "Fire",
+    "CD"
+  ],
+  "Arson": [
+    "Fire",
+    "Robbery"
+  ],
+  "Battle": [
+    "Fire",
+    "War"
+  ],
+  "Aslan": [
+    "Water",
+    "Narnia"
+  ],
+  "Tip": [
+    "Water",
+    "Waiter"
+  ],
+  "Blastoise": [
+    "Water",
+    "Squirtle"
+  ],
+  "Lavender": [
+    "Water",
+    "Purple"
+  ],
+  "Firecracker": [
+    "Fire",
+    "Crack"
+  ],
+  "Kim Jong-Un": [
+    "Fire",
+    "Korea"
+  ],
+  "Moose On Fire": [
+    "Fire",
+    "Moose on Fire"
+  ],
+  "Steak": [
+    "Fire",
+    "Bulls"
+  ],
+  "Hacker": [
+    "Fire",
+    "Hack"
+  ],
+  "Aries": [
+    "Fire",
+    "Taurus"
+  ],
+  "Charlton Heston": [
+    "Fire",
+    "Planet Of The Apes"
+  ],
+  "Persia": [
+    "Fire",
+    "Iran"
+  ],
+  "Chimera": [
+    "Fire",
+    "Centaur"
+  ],
+  "Slipper": [
+    "Fire",
+    "Shoe"
+  ],
+  "Ticket": [
+    "Fire",
+    "Parking"
+  ],
+  "Rome": [
+    "Fire",
+    "Empire"
+  ],
+  "Disney Inferno": [
+    "Fire",
+    "Disneyland"
+  ],
+  "Russia": [
+    "Fire",
+    "Siberia"
+  ],
+  "Kim Jong-wet": [
+    "Water",
+    "Kim Jong-Un"
+  ],
+  "Tiber": [
+    "Water",
+    "Rome"
+  ],
+  "Mickey Mouse": [
+    "Water",
+    "Disney Inferno"
+  ],
+  "Firewind": [
+    "Fire",
+    "Moosewind"
+  ],
+  "Hotline": [
+    "Fire",
+    "Telephone"
+  ],
+  "Sasuke": [
+    "Fire",
+    "Naruto"
+  ],
+  "Fire Golem": [
+    "Fire",
+    "Air Golem"
+  ],
+  "Monkey On Fire": [
+    "Fire",
+    "Monkey On A Boat"
+  ],
+  "FireFox": [
+    "Fire",
+    "Google"
+  ],
+  "Fire Breathing Spaghetti Monster": [
+    "Fire",
+    "Spaghetti Monster"
+  ],
+  "Fireboard": [
+    "Fire",
+    "Wakeboard"
+  ],
+  "Truce": [
+    "Fire",
+    "Peace"
+  ]
 }

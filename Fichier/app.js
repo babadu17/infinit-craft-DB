@@ -56,7 +56,7 @@ function closePopup() {
 
 function render(recipes, query = "") {
   const entries = Object.entries(recipes).filter(([result, [a, b]]) => {
-    const q = query.toLowerCase();
+    const q = query;
     return !q || result.includes(q) || a.includes(q) || b.includes(q);
   });
 

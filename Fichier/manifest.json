@@ -1,6 +1,6 @@
 {
-  "name": "Infinite craft DB",
-  "short_name": "Infinite craft",
+  "name": "Infinite DB",
+  "short_name": "Infinite DB",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
